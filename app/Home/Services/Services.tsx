@@ -8,7 +8,6 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-import { FaArrowAltCircleDown } from "react-icons/fa";
 import Link from "next/link";
 import service_1 from "@/public/images/services/service_1.png";
 import service_2 from "@/public/images/services/service_2.png";
@@ -195,13 +194,6 @@ const Services: React.FC = () => {
                 <CarouselPrevious />
                 <CarouselNext />
             </Carousel>
-            <div className="absolute bottom-2 left-[50%] translate-x-[-50%] float-animation">
-                <Link href="#envoroment" title="介紹">
-                    <i>
-                        <FaArrowAltCircleDown className=" text-[2.5rem] text-blue-500 bg-white rounded-full border-2 border-white" />
-                    </i>
-                </Link>
-            </div>
         </section>
     );
 };
