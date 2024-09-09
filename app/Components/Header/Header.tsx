@@ -18,8 +18,10 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-center gap-2">
                 <Image src={logo} alt="logo" height={50} />
                 <div className="select-none">
-                    <h2>澄臻美學牙醫診所</h2>
-                    <h2>Sinceresthetic Dental Clinic</h2>
+                    <h5 className="text-xl">澄臻美學牙醫診所</h5>
+                    <h5 className="text-[13px]">
+                        Sinceresthetic Dental Clinic
+                    </h5>
                 </div>
             </div>
             <NavigationMenu>
