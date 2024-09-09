@@ -1,7 +1,6 @@
 import Image from "next/image";
 import sincere_5 from "@/public/images/clinic/sincere_5.png";
 import "./enviroment.css";
-import Link from "next/link";
 
 const Enviroment: React.FC = () => {
     return (

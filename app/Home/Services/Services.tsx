@@ -8,7 +8,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-import Link from "next/link";
+
 import service_1 from "@/public/images/services/service_1.png";
 import service_2 from "@/public/images/services/service_2.png";
 import service_3 from "@/public/images/services/service_3.png";
