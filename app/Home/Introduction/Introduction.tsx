@@ -17,7 +17,7 @@ const Introduction: React.FC = () => {
                 className="rounded-full border-4 border-[var(--main-theme)]	 mb-8"
             />
             <div className="dialog flex flex-col w-fit items-center justify-center rounded-3xl py-12 px-8">
-                <h2 className="mb-4 ">動人笑容，總源自於雙眸綻放的神韻</h2>
+                <h2 className="mb-4 ">動人笑容，源於齒間散發的自信</h2>
 
                 <p className="w-[500px]  mb-8">
                     微笑的魅力如同一幅藝術傑作，笑容設計更被視為藝術創作的絕佳體現
