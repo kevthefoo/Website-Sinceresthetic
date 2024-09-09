@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             <div className="absolute bottom-2 left-[50%] translate-x-[-50%] float-animation ">
                 <Link href="#introduction" title="介紹">
                     <i>
-                        <FaArrowAltCircleDown className=" text-[2.5rem] text-white" />
+                        <FaArrowAltCircleDown className=" text-[2.5rem] text-blue-500" />
                     </i>
                 </Link>
             </div>

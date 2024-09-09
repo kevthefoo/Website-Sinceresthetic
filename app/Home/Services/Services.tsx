@@ -8,7 +8,8 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-
+import { FaArrowAltCircleDown } from "react-icons/fa";
+import Link from "next/link";
 import service_1 from "@/public/images/services/service_1.png";
 import service_2 from "@/public/images/services/service_2.png";
 import service_3 from "@/public/images/services/service_3.png";
@@ -22,7 +23,7 @@ import service_9 from "@/public/images/services/service_9.png";
 const Services: React.FC = () => {
     return (
         <section
-            className="flex flex-col justify-start items-center h-screen"
+            className="relative flex flex-col justify-start items-center h-screen"
             id="services"
         >
             <h1>全方位醫療項目</h1>
@@ -194,6 +195,13 @@ const Services: React.FC = () => {
                 <CarouselPrevious />
                 <CarouselNext />
             </Carousel>
+            <div className="absolute bottom-2 left-[50%] translate-x-[-50%] float-animation">
+                <Link href="#envoroment" title="介紹">
+                    <i>
+                        <FaArrowAltCircleDown className=" text-[2.5rem] text-blue-500" />
+                    </i>
+                </Link>
+            </div>
         </section>
     );
 };

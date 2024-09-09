@@ -1,0 +1,21 @@
+.enviroment__section::before,
+.enviroment__section::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    border: 2px solid black;
+    background-color: aquamarine;
+    z-index: 5;
+    @apply blur-3xl
+    
+}
+
+.enviroment__section::before {
+    top: 0;
+}
+
+.enviroment__section::after {
+    bottom: 0;
+}
