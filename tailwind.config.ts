@@ -57,7 +57,7 @@ const config: Config = {
                 sm: "calc(var(--radius) - 4px)",
             },
             animation: {
-                cycleImages: "cycleImages 20s ease-in-out infinite",
+                show: "cycleImages 10s ease-in-out infinite",
             },
             keyframes: {
                 cycleImages: {
@@ -78,6 +78,17 @@ const config: Config = {
                     },
                     "100%": {
                         bg: 'bg-[url("/public/images/clinic/sincere_0.png")]',
+                    },
+                },
+				boo: {
+                    "0%": {
+                        bg: 'bg-red-500',
+                    },
+					"50%": {
+						bg: 'bg-yellow-500',
+					},
+                    "100%": {
+                        bg: 'bg-green-500',
                     },
                 },
             },

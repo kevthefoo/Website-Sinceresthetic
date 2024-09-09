@@ -1,5 +1,6 @@
 .hero__background__container {
-    background-image: url("../../../public/images/clinic/sincere_0.png");
+    /* background-image: url("../../../public/images/clinic/sincere_0.png"); */
+    background-color: transparent;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +9,7 @@
     -webkit-backface-visibility: hidden; */
 }
 
-@keyframes cycleImages {
+/* @keyframes cycleImages {
     0% {
         background-image: url("../../../public/images/clinic/sincere_0.png");
     }
@@ -36,4 +37,4 @@
     100% {
         background-image: url("../../../public/images/clinic/sincere_0.png");
     }
-}
+} */
