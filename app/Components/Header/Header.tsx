@@ -24,8 +24,13 @@ const Header: React.FC = () => {
             </div>
             <NavigationMenu>
                 <NavigationMenuItem className="list-none">
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link
+                        href="https://page.line.me/920oaogn?openQrModal=true"
+                        legacyBehavior
+                        passHref
+                    >
                         <NavigationMenuLink
+                            target="_blank"
                             className={navigationMenuTriggerStyle()}
                         >
                             立即預約
@@ -33,7 +38,7 @@ const Header: React.FC = () => {
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="list-none">
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="/about" legacyBehavior passHref>
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
                         >
@@ -43,7 +48,7 @@ const Header: React.FC = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem className="list-none">
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="/services" legacyBehavior passHref>
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
                         >
@@ -53,7 +58,7 @@ const Header: React.FC = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem className="list-none">
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="/team" legacyBehavior passHref>
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
                         >
@@ -63,7 +68,7 @@ const Header: React.FC = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem className="list-none">
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="/clinic" legacyBehavior passHref>
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
                         >
@@ -73,17 +78,17 @@ const Header: React.FC = () => {
                 </NavigationMenuItem>
             </NavigationMenu>
             <div className="flex items-center justify-center gap-2">
-                <Link href="https://instagram.com">
+                <Link href="https://instagram.com" target="_blank">
                     <i className="text-xl">
                         <FaInstagramSquare />
                     </i>
                 </Link>
-                <Link href="https://facebook.com">
+                <Link href="https://facebook.com" target="_blank">
                     <i className="text-xl">
                         <FaFacebookSquare />
                     </i>
                 </Link>
-                <Link href="https://line.me/">
+                <Link href="https://line.me/" target="_blank">
                     <i className="text-xl">
                         <FaLine />
                     </i>
