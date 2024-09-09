@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import smiling_girl from "@/public/images/appointment_image_0.png";
+import smiling_girl from "@/public/images/appointment/appointment_image_0.png";
 const Introduction: React.FC = () => {
     return (
         <section className="flex flex-col justify-start items-center">
