@@ -1,6 +1,6 @@
 import { FaInstagramSquare, FaFacebookSquare, FaLine } from "react-icons/fa";
 
-import logo from "@/public/images/logo_original.png";
+import logo from "@/public/images/logo_new.png";
 import Image from "next/image";
 
 import Link from "next/link";
