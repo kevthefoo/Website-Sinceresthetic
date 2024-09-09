@@ -1,10 +1,14 @@
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import { FaArrowAltCircleDown } from "react-icons/fa";
+import Link from "next/link";
 import smiling_girl from "@/public/images/appointment/appointment_image_0.png";
 const Introduction: React.FC = () => {
     return (
-        <section className="flex flex-col justify-start items-center">
+        <section
+            className="relative flex flex-col justify-start items-center"
+            id="introduction"
+        >
             <h1>微笑的藝術</h1>
             <Image
                 src={smiling_girl}
@@ -22,8 +26,17 @@ const Introduction: React.FC = () => {
                 <Link
                     href="https://page.line.me/920oaogn?openQrModal=true"
                     target="_blank"
+                    className="border-2 border-[var(--main-theme)] rounded-[50px] px-4 py-2 hover:bg-slate-300"
                 >
                     立即預約
+                </Link>
+            </div>
+
+            <div className="absolute bottom-2 left-[50%] translate-x-[-50%] float-animation ">
+                <Link href="#services" title="介紹">
+                    <i>
+                        <FaArrowAltCircleDown className=" text-[2.5rem] text-white" />
+                    </i>
                 </Link>
             </div>
         </section>

@@ -1,36 +1,6 @@
 .hero__background__container {
     background-image: url("../../../public/images/clinic/reception.png");
-    background-color: transparent;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: cycleImages 30s infinite;
-    transition: transform 5s ease-in-out;
 }
-
-/* @keyframes cycleImages {
-    0% {
-        background-image: url("../../../public/images/clinic/sincere_0.png");
-    }
-    12.5% {
-        background-image: url("../../../public/images/clinic/sincere_1.png");
-    }
-    25% {
-        background-image: url("../../../public/images/clinic/sincere_2.png");
-    }
-    37.5% {
-        background-image: url("../../../public/images/clinic/sincere_3.png");
-    }
-    50% {
-        background-image: url("../../../public/images/clinic/sincere_4.png");
-    }
-    62.5% {
-        background-image: url("../../../public/images/clinic/sincere_5.png");
-    }
-    75% {
-        background-image: url("../../../public/images/clinic/sincere_6.png");
-    }
-    100% {
-        background-image: url("../../../public/images/clinic/sincere_0.png");
-    }
-} */

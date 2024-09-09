@@ -15,6 +15,7 @@ import {
 const Header: React.FC = () => {
     return (
         <header className="fixed w-full flex border-b-2 items-center justify-between px-32 py-2 h-20 bg-white z-10">
+            {/* Logo */}
             <div className="flex items-center justify-center gap-2">
                 <Image src={logo} alt="logo" height={50} />
                 <div className="select-none">
@@ -24,6 +25,8 @@ const Header: React.FC = () => {
                     </h5>
                 </div>
             </div>
+
+            {/* Navigation Menu */}
             <NavigationMenu>
                 <NavigationMenuItem className="list-none">
                     <Link
@@ -79,18 +82,29 @@ const Header: React.FC = () => {
                     </Link>
                 </NavigationMenuItem>
             </NavigationMenu>
+
+            {/* Social Media Icons */}
             <div className="flex items-center justify-center gap-2">
-                <Link href="https://instagram.com" target="_blank">
+                <Link
+                    href="https://instagram.com/sinceresthetic"
+                    target="_blank"
+                >
                     <i className="text-xl">
                         <FaInstagramSquare />
                     </i>
                 </Link>
-                <Link href="https://facebook.com" target="_blank">
+                <Link
+                    href="https://www.facebook.com/sinceresthetic"
+                    target="_blank"
+                >
                     <i className="text-xl">
                         <FaFacebookSquare />
                     </i>
                 </Link>
-                <Link href="https://line.me/" target="_blank">
+                <Link
+                    href="https://page.line.me/920oaogn?openQrModal=true"
+                    target="_blank"
+                >
                     <i className="text-xl">
                         <FaLine />
                     </i>

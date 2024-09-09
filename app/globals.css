@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-    --main-theme: #1EA8B0;
+    --main-theme: #1ea8b0;
 }
 
 /* CSS Reset */
@@ -33,7 +32,7 @@ section {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
-    padding: 0 6rem;
+    padding: 5rem 6rem 0;
     border: 2px solid red;
 }
 
@@ -76,7 +75,26 @@ button {
     cursor: pointer;
 }
 
-.dialog{
+.dialog {
     background-color: transparent;
-    background-image: linear-gradient(173deg, #FFFFFF 0%, #1EA8B073 100%)
+    background-image: linear-gradient(173deg, #ffffff 0%, #1ea8b073 100%);
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(8px) translateX(-50%);
+    }
+    50% {
+        transform: translateY(-10px) translateX(-50%);
+    }
+}
+
+.float-animation {
+    display: inline-block;
+    animation: float 2s infinite ease-in-out;
+}
+
+.float-animation:hover {
+    animation: none;
 }
