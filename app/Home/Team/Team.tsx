@@ -31,14 +31,14 @@ const Team: React.FC = () => {
                         <div className="">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_0}
                                             alt="doctor_0"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
 
@@ -96,14 +96,14 @@ const Team: React.FC = () => {
                         <div className="h-full">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_1}
                                             alt="doctor_1"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
 
@@ -161,14 +161,14 @@ const Team: React.FC = () => {
                         <div className="">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_2}
                                             alt="doctor_2"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
 
@@ -226,14 +226,14 @@ const Team: React.FC = () => {
                         <div className="">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_3}
                                             alt="doctor_3"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
                                     <h1>林安海</h1>
@@ -290,14 +290,14 @@ const Team: React.FC = () => {
                         <div className="">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_4}
                                             alt="doctor_4"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
                                     <h1>林波波</h1>
@@ -354,14 +354,14 @@ const Team: React.FC = () => {
                         <div className="">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_5}
                                             alt="doctor_5"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
 
@@ -419,14 +419,14 @@ const Team: React.FC = () => {
                         <div className="">
                             <Card className="rounded-[50px] ">
                                 <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
-                                    <div className="h-[400px]  w-full overflow-hidden">
+                                    <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_6}
                                             alt="doctor_6"
                                             objectFit="cover"
                                             objectPosition="center"
                                             placeholder="blur"
-                                            className=" mb-4"
+                                            
                                         />
                                     </div>
 
