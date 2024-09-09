@@ -1,0 +1,6 @@
+.hero__background__container {
+    background-image: url("../../../public/images/case_4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
