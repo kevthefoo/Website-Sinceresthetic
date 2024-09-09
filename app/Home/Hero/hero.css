@@ -3,9 +3,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: cycleImages 30s infinite;
+    /* animation: cycleImages 30s infinite;
     transition: transform 2.5s ease-in;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; */
 }
 
 @keyframes cycleImages {
