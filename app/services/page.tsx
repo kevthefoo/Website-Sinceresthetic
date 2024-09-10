@@ -3,6 +3,8 @@ import Image from "next/image";
 import banner from "@/public/images/logo/banner_5.png";
 import type { Metadata } from "next";
 
+import "./services.css";
+
 import service_1 from "@/public/images/services/service_1.png";
 import service_2 from "@/public/images/services/service_2.png";
 import service_3 from "@/public/images/services/service_3.png";
@@ -41,7 +43,7 @@ const Services: React.FC = () => {
                             objectPosition="center"
                             priority={true}
                             placeholder="blur"
-                            className=""
+                            className="flash-effect"
                         />
                         <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
                             <h1 className="text-white translate-y-1">全植牙</h1>
@@ -58,7 +60,7 @@ const Services: React.FC = () => {
                             objectPosition="center"
                             priority={true}
                             placeholder="blur"
-                            className=""
+                            className="flash-effect"
                         />
                         <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
                             <h1 className="text-white translate-y-1">
@@ -77,7 +79,7 @@ const Services: React.FC = () => {
                             objectPosition="center"
                             priority={true}
                             placeholder="blur"
-                            className=""
+                            className="flash-effect"
                         />
                         <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
                             <h1 className="text-white translate-y-1">全瓷冠</h1>
@@ -94,7 +96,7 @@ const Services: React.FC = () => {
                             objectPosition="center"
                             priority={true}
                             placeholder="blur"
-                            className=""
+                            className="flash-effect"
                         />
                         <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
                             <h1 className="text-white translate-y-1">
@@ -113,7 +115,7 @@ const Services: React.FC = () => {
                             objectPosition="center"
                             priority={true}
                             placeholder="blur"
-                            className=""
+                            className="flash-effect"
                         />
                         <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
                             <h1 className="text-white translate-y-1">
@@ -132,7 +134,7 @@ const Services: React.FC = () => {
                             objectPosition="center"
                             priority={true}
                             placeholder="blur"
-                            className=""
+                            className="flash-effect"
                         />
                         <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
                             <h1 className="text-white translate-y-1">
