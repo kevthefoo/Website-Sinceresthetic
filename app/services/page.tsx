@@ -3,6 +3,8 @@ import Image from "next/image";
 import banner from "@/public/images/logo/banner_5.png";
 import type { Metadata } from "next";
 
+import Link from "next/link";
+
 import "./services.css";
 
 import service_1 from "@/public/images/services/service_1.png";
@@ -34,7 +36,7 @@ const Services: React.FC = () => {
 
             <h1 className="pt-44 mb-8">診療項目</h1>
             <div className="grid grid-cols-3 grid-flow-row grid-rows-2 auto-rows-[100px_100px] gap-4">
-                <div className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_1}
@@ -49,9 +51,9 @@ const Services: React.FC = () => {
                             <h1 className="text-white translate-y-1">全植牙</h1>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_2}
@@ -68,9 +70,9 @@ const Services: React.FC = () => {
                             </h1>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_3}
@@ -85,9 +87,9 @@ const Services: React.FC = () => {
                             <h1 className="text-white translate-y-1">全瓷冠</h1>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_4}
@@ -104,9 +106,9 @@ const Services: React.FC = () => {
                             </h1>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_5}
@@ -123,9 +125,9 @@ const Services: React.FC = () => {
                             </h1>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_6}
@@ -142,7 +144,7 @@ const Services: React.FC = () => {
                             </h1>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
         </section>
     );
