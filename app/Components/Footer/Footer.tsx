@@ -68,7 +68,9 @@ const Footer: React.FC = () => {
 
                 <div className="flex items-center justify-center">
                     <FaLocationDot />
-                    <h3>地址: 台中北屯區文心路四段151號</h3>
+                    <h3>
+                        <a href="https://maps.app.goo.gl/KR8gV53LadBkzzG4A" target="_blank">地址: 台中北屯區文心路四段151號</a>
+                    </h3>
                 </div>
                 <div className="flex items-center justify-center">
                     <BsFillTelephoneFill />
