@@ -13,11 +13,11 @@ const Service: React.FC<ServiceProps> = ({ params }) => {
 
     const serviceName = ServicesData[service].chineseName;
     const serviceDescription = ServicesData[service].description;
-    const imagePath = `/images/service/${service}.png`;
+    const imagePath = `/images/services/${service}.png`;
     return (
         <section className="flex flex-col justify-center  bg-gradient-to-b from-white to-gray-100">
-            <h1>{service}</h1>
-            <div>
+            <h1>{serviceName}</h1>
+            <div className="">
                 <div>
                     <Image
                         src={imagePath}

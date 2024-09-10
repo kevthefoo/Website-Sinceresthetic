@@ -7,12 +7,12 @@ import Link from "next/link";
 
 import "./services.css";
 
-import service_1 from "@/public/images/services/service_1.png";
-import service_2 from "@/public/images/services/service_2.png";
-import service_3 from "@/public/images/services/service_3.png";
-import service_4 from "@/public/images/services/service_4.png";
-import service_5 from "@/public/images/services/service_5.png";
-import service_6 from "@/public/images/services/service_6.png";
+import ceramic_crown from "@/public/images/services/ceramic_crown.png";
+import children_dentist from "@/public/images/services/children_dentist.png";
+import dental_implant from "@/public/images/services/dental_implant.png";
+import family_dentist from "@/public/images/services/family_dentist.png";
+import root_canal_treatment from "@/public/images/services/root_canal_treatment.png";
+import teeth_whitening from "@/public/images/services/teeth_whitening.png";
 
 export const metadata: Metadata = {
     title: "診療項目",
@@ -36,10 +36,13 @@ const Services: React.FC = () => {
 
             <h1 className="pt-44 mb-8">診療項目</h1>
             <div className="grid grid-cols-3 grid-flow-row grid-rows-2 auto-rows-[100px_100px] gap-4">
-                <Link href="/services/dental_implant" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link
+                    href="/services/dental_implant"
+                    className="cursor-pointer rounded-2xl  overflow-hidden"
+                >
                     <div className="relative">
                         <Image
-                            src={service_1}
+                            src={ceramic_crown}
                             alt="service_1"
                             objectFit="cover"
                             objectPosition="center"
@@ -53,10 +56,13 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/teeth_whitening" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link
+                    href="/services/teeth_whitening"
+                    className="cursor-pointer rounded-2xl  overflow-hidden"
+                >
                     <div className="relative">
                         <Image
-                            src={service_2}
+                            src={teeth_whitening}
                             alt="service_3"
                             objectFit="cover"
                             objectPosition="center"
@@ -72,10 +78,13 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/ceramic_crown" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link
+                    href="/services/ceramic_crown"
+                    className="cursor-pointer rounded-2xl  overflow-hidden"
+                >
                     <div className="relative">
                         <Image
-                            src={service_3}
+                            src={root_canal_treatment}
                             alt="service_4"
                             objectFit="cover"
                             objectPosition="center"
@@ -89,10 +98,13 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/family_dentist" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link
+                    href="/services/family_dentist"
+                    className="cursor-pointer rounded-2xl  overflow-hidden"
+                >
                     <div className="relative">
                         <Image
-                            src={service_4}
+                            src={family_dentist}
                             alt="service_5"
                             objectFit="cover"
                             objectPosition="center"
@@ -108,10 +120,13 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/root_canal_treatment" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link
+                    href="/services/root_canal_treatment"
+                    className="cursor-pointer rounded-2xl  overflow-hidden"
+                >
                     <div className="relative">
                         <Image
-                            src={service_5}
+                            src={dental_implant}
                             alt="service_5"
                             objectFit="cover"
                             objectPosition="center"
@@ -127,10 +142,13 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/children_dentist" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link
+                    href="/services/children_dentist"
+                    className="cursor-pointer rounded-2xl  overflow-hidden"
+                >
                     <div className="relative">
                         <Image
-                            src={service_6}
+                            src={children_dentist}
                             alt="service_6"
                             objectFit="cover"
                             objectPosition="center"
