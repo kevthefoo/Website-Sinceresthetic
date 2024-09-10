@@ -4,13 +4,13 @@ import "./team.css";
 
 import Image from "next/image";
 
-import doctor_0 from "@/public/images/doctor/doctor_0.png";
-import doctor_1 from "@/public/images/doctor/doctor_1.png";
-import doctor_2 from "@/public/images/doctor/doctor_2.png";
-import doctor_3 from "@/public/images/doctor/doctor_3.png";
-import doctor_4 from "@/public/images/doctor/doctor_4.png";
-import doctor_5 from "@/public/images/doctor/doctor_5.png";
-import doctor_6 from "@/public/images/doctor/doctor_6.png";
+import doctor_0 from "@/public/images/doctor/johnny.png";
+import doctor_1 from "@/public/images/doctor/jerry.png";
+import doctor_2 from "@/public/images/doctor/david.png";
+import doctor_3 from "@/public/images/doctor/tom.png";
+import doctor_4 from "@/public/images/doctor/mary.png";
+import doctor_5 from "@/public/images/doctor/linda.png";
+import doctor_6 from "@/public/images/doctor/jennifer.png";
 
 import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";

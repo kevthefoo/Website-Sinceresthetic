@@ -3,6 +3,8 @@ interface Doctor {
     chineseName: string;
     englishName: string;
     title: string;
+    education: string;
+    experience: string;
     speciality: string[];
 }
 
@@ -15,42 +17,56 @@ const DoctorData: DoctorDataType = {
         chineseName: "林昌言",
         englishName: "Johnny",
         title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
         speciality: ["牙科手術", "植牙", "口腔美容"],
     },
-    jason: {
+    mary: {
         chineseName: "林昌言",
-        englishName: "Jason",
-        title: "牙醫",
+        englishName: "Mary",
+        title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
+        speciality: ["牙科手術", "植牙", "口腔美容"],
+    },
+    tom: {
+        chineseName: "林昌言",
+        englishName: "Tom",
+        title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
         speciality: ["牙科手術", "植牙", "口腔美容"],
     },
     jerry: {
         chineseName: "林昌言",
         englishName: "Jerry",
-        title: "牙醫",
+        title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
         speciality: ["牙科手術", "植牙", "口腔美容"],
     },
-    jenny: {
+    linda: {
         chineseName: "林昌言",
-        englishName: "Jenny",
-        title: "牙醫",
+        englishName: "Linda",
+        title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
         speciality: ["牙科手術", "植牙", "口腔美容"],
     },
-    jessica: {
+    david: {
         chineseName: "林昌言",
-        englishName: "Jessica",
-        title: "牙醫",
+        englishName: "David",
+        title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
         speciality: ["牙科手術", "植牙", "口腔美容"],
     },
-    jacky: {
+    jennifer: {
         chineseName: "林昌言",
-        englishName: "Jason",
-        title: "牙醫",
-        speciality: ["牙科手術", "植牙", "口腔美容"],
-    },
-    jerome: {
-        chineseName: "林昌言",
-        englishName: "Jason",
-        title: "牙醫",
+        englishName: "Jennifer",
+        title: "院長",
+        education: "國立台灣大學牙醫學系畢業",
+        experience: "台北市立聯合醫院牙科住院醫師",
         speciality: ["牙科手術", "植牙", "口腔美容"],
     },
 };
