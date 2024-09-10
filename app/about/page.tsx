@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
-import banner from "@/public/images/logo/banner_3.png";
+import banner from "@/public/images/logo/banner_4.png";
 import reception from "@/public/images/clinic/reception.png";
 import second_floor from "@/public/images/clinic/second_floor.png";
 import sincece from "@/public/images/clinic/Sincere-12.jpg";
@@ -20,7 +20,7 @@ const About: React.FC = () => {
                     alt="banner"
                     fill={true}
                     objectFit="cover"
-                    objectPosition="center"
+                    objectPosition="0 -275px"
                     priority={true}
                     placeholder="blur"
                 />
@@ -34,7 +34,7 @@ const About: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden">
                     <Image src={reception} width={500} alt="reception" />
                     <h1 className="absolute bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
-                        一樓接納台
+                        一樓接待區
                     </h1>
                 </div>
             </div>
@@ -43,7 +43,7 @@ const About: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden">
                     <Image src={second_floor} width={500} alt="reception" />
                     <h1 className="absolute bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
-                        二樓等候區
+                        二樓候診區
                     </h1>
                 </div>
                 <p className="text-wrap w-[600px] ">
