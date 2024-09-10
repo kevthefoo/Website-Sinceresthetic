@@ -29,19 +29,15 @@ const Header: React.FC = () => {
             {/* Navigation Menu */}
             <NavigationMenu>
                 <NavigationMenuItem className="list-none">
-                    <Link
-                        href="https://page.line.me/920oaogn?openQrModal=true"
-                        legacyBehavior
-                        passHref
-                    >
+                    <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink
-                            target="_blank"
                             className={navigationMenuTriggerStyle()}
                         >
-                            立即預約
+                            首頁
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
+
                 <NavigationMenuItem className="list-none">
                     <Link href="/about" legacyBehavior passHref>
                         <NavigationMenuLink
@@ -71,13 +67,17 @@ const Header: React.FC = () => {
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
-
                 <NavigationMenuItem className="list-none">
-                    <Link href="/clinic" legacyBehavior passHref>
+                    <Link
+                        href="https://page.line.me/920oaogn?openQrModal=true"
+                        legacyBehavior
+                        passHref
+                    >
                         <NavigationMenuLink
+                            target="_blank"
                             className={navigationMenuTriggerStyle()}
                         >
-                            診所環境
+                            立即預約
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
