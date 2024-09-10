@@ -32,7 +32,7 @@ const Reveal: React.FC<RevealProps> = ({
     return (
         <motion.div
             ref={ref}
-            className="h-full overflow-hidden border-2 rounded-3xl"
+            className="h-full overflow-hidden rounded-3xl"
             variants={{
                 hidden: { opacity: 0, x: xTranslate, y: yTranslate },
                 visible: { opacity: 1, x: 0, y: 0 },

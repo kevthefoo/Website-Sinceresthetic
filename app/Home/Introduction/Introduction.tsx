@@ -61,8 +61,8 @@ const Introduction: React.FC = () => {
             />
 
             <Reveal>
-                <div className="dialog flex flex-col w-full max-w-lg items-center justify-center bg-white rounded-3xl py-12 px-8 shadow-xl">
-                    <h2 className="text-2xl font-semibold text-gray-700 mb-4 text-center">
+                <div className="dialog flex flex-col w-full max-w-lg items-center justify-center bg-white rounded-3xl py-8 px-8 shadow-xl">
+                    <h2 className="text-2xl font-medium	 text-gray-700 mb-4 text-center">
                         動人笑容，源於齒間散發的自信
                     </h2>
 
@@ -73,7 +73,7 @@ const Introduction: React.FC = () => {
                     <Link
                         href="https://page.line.me/920oaogn?openQrModal=true"
                         target="_blank"
-                        className="border-2 border-[var(--main-theme)] text-[var(--main-theme)] rounded-[50px] px-6 py-3 hover:bg-[var(--main-theme)] hover:text-white transition-colors duration-300"
+                        className="border-2 border-[var(--main-theme)] rounded-[50px] px-6 py-3 hover:bg-[var(--main-theme)] hover:text-white transition-colors duration-300"
                     >
                         立即預約
                     </Link>
