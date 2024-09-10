@@ -36,7 +36,7 @@ const Services: React.FC = () => {
 
             <h1 className="pt-44 mb-8">診療項目</h1>
             <div className="grid grid-cols-3 grid-flow-row grid-rows-2 auto-rows-[100px_100px] gap-4">
-                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/dental_implant" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_1}
@@ -53,7 +53,7 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/teeth_whitening" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_2}
@@ -72,7 +72,7 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/ceramic_crown" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_3}
@@ -89,7 +89,7 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/family_dentist" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_4}
@@ -108,7 +108,7 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/root_canal_treatment" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_5}
@@ -127,7 +127,7 @@ const Services: React.FC = () => {
                     </div>
                 </Link>
 
-                <Link href="/services/flash" className="cursor-pointer rounded-2xl  overflow-hidden">
+                <Link href="/services/children_dentist" className="cursor-pointer rounded-2xl  overflow-hidden">
                     <div className="relative">
                         <Image
                             src={service_6}

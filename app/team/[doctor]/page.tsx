@@ -18,7 +18,7 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
 
     const imagePath = `/images/doctor/${doctor}.png`;
     return (
-        <section className=" flex flex-col justify-center">
+        <section className="flex flex-col justify-center  bg-gradient-to-b from-white to-gray-100">
             <h1>
                 {doctorName} {doctorTitle}
             </h1>

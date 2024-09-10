@@ -1,10 +1,37 @@
 import React from "react";
 import Image from "next/image";
+import ServicesData from "../ServicesData";
 
-const Service: React.FC = () => {
+interface ServiceProps {
+    params: {
+        service: string;
+    };
+}
+
+const Service: React.FC<ServiceProps> = ({ params }) => {
+    const { service } = params;
+
+    const serviceName = ServicesData[service].chineseName;
+    const serviceDescription = ServicesData[service].description;
+    const imagePath = `/images/service/${service}.png`;
     return (
-        <section className="">
-            <h1>Service</h1>
+        <section className="flex flex-col justify-center  bg-gradient-to-b from-white to-gray-100">
+            <h1>{service}</h1>
+            <div>
+                <div>
+                    <Image
+                        src={imagePath}
+                        alt={service}
+                        width={300}
+                        height={300}
+                        priority={true}
+                    />
+                </div>
+                <div>
+                    <h2>{serviceName}</h2>
+                    <p>{serviceDescription}</p>
+                </div>
+            </div>
         </section>
     );
 };
