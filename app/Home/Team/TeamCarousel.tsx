@@ -326,26 +326,26 @@ const TeamCarousel: React.FC = () => {
                                                     <td></td>
                                                     <td></td>
                                                     <td>✓</td>
+                                                    <td>✓</td>
+                                                    <td>✓</td>
                                                     <td></td>
-                                                    <td>✓</td>
-                                                    <td>✓</td>
                                                 </tr>
                                                 <tr>
                                                     <td>15:00-18:00</td>
-                                                    <td>✓</td>
-                                                    <td></td>
-                                                    <td>✓</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>✓</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>18:00-21:00</td>
-                                                    <td>✓</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>✓</td>
                                                     <td>✓</td>
+                                                    <td></td>
                                                     <td></td>
                                                 </tr>
                                             </tbody>
@@ -389,14 +389,14 @@ const TeamCarousel: React.FC = () => {
                                                     <td>09:00-12:00</td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td>✓</td>
+                                                    <td></td>
                                                     <td></td>
                                                     <td>✓</td>
                                                     <td>✓</td>
                                                 </tr>
                                                 <tr>
                                                     <td>15:00-18:00</td>
-                                                    <td>✓</td>
+                                                    <td></td>
                                                     <td></td>
                                                     <td>✓</td>
                                                     <td></td>
@@ -408,7 +408,7 @@ const TeamCarousel: React.FC = () => {
                                                     <td>✓</td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td>✓</td>
+                                                    <td></td>
                                                     <td>✓</td>
                                                     <td></td>
                                                 </tr>
@@ -453,26 +453,26 @@ const TeamCarousel: React.FC = () => {
                                                     <td>09:00-12:00</td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td>✓</td>
                                                     <td></td>
-                                                    <td>✓</td>
-                                                    <td>✓</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>15:00-18:00</td>
-                                                    <td>✓</td>
                                                     <td></td>
                                                     <td>✓</td>
+                                                    <td></td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>✓</td>
                                                 </tr>
                                                 <tr>
                                                     <td>18:00-21:00</td>
+                                                    <td></td>
                                                     <td>✓</td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td>✓</td>
                                                     <td>✓</td>
                                                     <td></td>
                                                 </tr>
