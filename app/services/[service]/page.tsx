@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ServicesData from "../ServicesData";
+import { FaQuestion } from "react-icons/fa";
 
 import {
     Accordion,
@@ -39,7 +40,10 @@ const Service: React.FC<ServiceProps> = ({ params }) => {
                 </div>
             </div>
             <div className="pb-12">
-                <h1 className="mb-12">問與答</h1>
+                <h1 className="mb-12 flex items-center justify-center">
+                    問與答
+                    <FaQuestion className="text-red-500" />
+                </h1>
                 <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
                         <AccordionTrigger className="text-base">
