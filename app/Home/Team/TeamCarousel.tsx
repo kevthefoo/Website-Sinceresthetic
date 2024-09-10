@@ -41,7 +41,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700 p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_0}
@@ -105,7 +105,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="h-full">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700  p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_1}
@@ -169,7 +169,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700  p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_2}
@@ -233,7 +233,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700  p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_3}
@@ -296,7 +296,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700  p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_4}
@@ -359,7 +359,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700  p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_5}
@@ -423,7 +423,7 @@ const TeamCarousel: React.FC = () => {
                     <CarouselItem className="basis-1/3 h-full ">
                         <div className="">
                             <Card className="rounded-[50px] ">
-                                <CardContent className="border-2 bg-[#1EA8B012] border-black p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
+                                <CardContent className="border-2 bg-[#1EA8B012] border-slate-700  p-0 rounded-[50px] overflow-hidden  flex flex-col items-center justify-start ">
                                     <div className="h-[400px]  w-full overflow-hidden mb-4">
                                         <Image
                                             src={doctor_6}
