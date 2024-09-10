@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
-import banner from "@/public/images/logo/banner_4.png";
+import banner from "@/public/images/logo/banner_5.png";
 import reception from "@/public/images/clinic/reception.png";
 import second_floor from "@/public/images/clinic/second_floor.png";
 import sincece from "@/public/images/clinic/Sincere-12.jpg";
@@ -20,7 +20,7 @@ const About: React.FC = () => {
                     alt="banner"
                     fill={true}
                     objectFit="cover"
-                    objectPosition="0 -275px"
+                    objectPosition="0 -10px"
                     priority={true}
                     placeholder="blur"
                 />
