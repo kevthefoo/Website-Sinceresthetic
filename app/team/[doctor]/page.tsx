@@ -29,7 +29,7 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
                         alt={doctor}
                         width={300}
                         height={300}
-                        className=""
+                        priority={true}
                     />
                 </div>
 
