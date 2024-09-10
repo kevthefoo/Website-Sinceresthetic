@@ -81,6 +81,7 @@ button {
         #ffffff 10%,
         rgba(30, 168, 176, 0.75) 100%
     );
+    @apply border-4 border-slate-300;
 }
 
 @keyframes float {

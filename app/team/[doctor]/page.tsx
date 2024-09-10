@@ -18,12 +18,12 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
 
     const imagePath = `/images/doctor/${doctor}.png`;
     return (
-        <section className="flex flex-col justify-center  bg-gradient-to-b from-white to-gray-100">
+        <section className="flex flex-col justify-center bg-gradient-to-b from-white to-gray-100">
             <h1>
                 {doctorName} {doctorTitle}
             </h1>
-            <div className="flex justify-evenly items-end ">
-                <div className="self-stretch ">
+            <div className="flex justify-evenly items-end">
+                <div className="self-stretch">
                     <Image
                         src={imagePath}
                         alt={doctor}

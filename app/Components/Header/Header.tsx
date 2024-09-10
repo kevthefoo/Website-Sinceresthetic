@@ -27,47 +27,47 @@ const Header: React.FC = () => {
             </Link>
 
             {/* Navigation Menu */}
-            <NavigationMenu>
-                <NavigationMenuItem className="list-none">
+            <NavigationMenu className="">
+                <NavigationMenuItem className="list-none hover:text-gray-500 hover:border-b-2 hover:border-gray-500">
                     <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink
-                            className={navigationMenuTriggerStyle()}
+                            className={`${navigationMenuTriggerStyle()} text-base`}
                         >
                             首頁
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem className="list-none">
+                <NavigationMenuItem className="list-none hover:text-gray-500 hover:border-b-2 hover:border-gray-500">
                     <Link href="/about" legacyBehavior passHref>
                         <NavigationMenuLink
-                            className={navigationMenuTriggerStyle()}
+                            className={`${navigationMenuTriggerStyle()} text-base`}
                         >
                             關於澄臻
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem className="list-none">
+                <NavigationMenuItem className="list-none hover:text-gray-500 hover:border-b-2 hover:border-gray-500">
                     <Link href="/services" legacyBehavior passHref>
                         <NavigationMenuLink
-                            className={navigationMenuTriggerStyle()}
+                            className={`${navigationMenuTriggerStyle()} text-base`}
                         >
                             診療項目
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem className="list-none">
+                <NavigationMenuItem className="list-none hover:text-gray-500 hover:border-b-2 hover:border-gray-500">
                     <Link href="/team" legacyBehavior passHref>
                         <NavigationMenuLink
-                            className={navigationMenuTriggerStyle()}
+                            className={`${navigationMenuTriggerStyle()} text-base`}
                         >
                             醫療團隊
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem className="list-none">
+                <NavigationMenuItem className="list-none hover:text-gray-500 hover:border-b-2 hover:border-gray-500">
                     <Link
                         href="https://page.line.me/920oaogn?openQrModal=true"
                         legacyBehavior
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
                     >
                         <NavigationMenuLink
                             target="_blank"
-                            className={navigationMenuTriggerStyle()}
+                            className={`${navigationMenuTriggerStyle()} text-base`}
                         >
                             立即預約
                         </NavigationMenuLink>
@@ -89,7 +89,7 @@ const Header: React.FC = () => {
                     href="https://instagram.com/sinceresthetic"
                     target="_blank"
                 >
-                    <i className="text-xl">
+                    <i className="text-2xl">
                         <FaInstagramSquare />
                     </i>
                 </Link>
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
                     href="https://www.facebook.com/sinceresthetic"
                     target="_blank"
                 >
-                    <i className="text-xl">
+                    <i className="text-2xl">
                         <FaFacebookSquare />
                     </i>
                 </Link>
@@ -105,7 +105,7 @@ const Header: React.FC = () => {
                     href="https://page.line.me/920oaogn?openQrModal=true"
                     target="_blank"
                 >
-                    <i className="text-xl">
+                    <i className="text-2xl">
                         <FaLine />
                     </i>
                 </Link>

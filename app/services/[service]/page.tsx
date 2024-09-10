@@ -16,19 +16,18 @@ const Service: React.FC<ServiceProps> = ({ params }) => {
     const imagePath = `/images/services/${service}.png`;
     return (
         <section className="flex flex-col justify-center  bg-gradient-to-b from-white to-gray-100">
-            <h1>{serviceName}</h1>
-            <div className="">
-                <div>
-                    <Image
-                        src={imagePath}
-                        alt={service}
-                        width={300}
-                        height={300}
-                        priority={true}
-                    />
-                </div>
-                <div>
-                    <h2>{serviceName}</h2>
+            <div className="flex justify-around items-center">
+                <Image
+                    src={imagePath}
+                    alt={service}
+                    width={400}
+                    height={400}
+                    priority={true}
+                    className="rounded-2xl"
+                />
+
+                <div className="w-[600px] dialog px-10 py-8 rounded-3xl">
+                    <h1>{serviceName}</h1>
                     <p>{serviceDescription}</p>
                 </div>
             </div>
