@@ -33,7 +33,7 @@ const About: React.FC = () => {
                 </p>
                 <div className="relative rounded-2xl overflow-hidden">
                     <Image src={reception} width={500} alt="reception" />
-                    <h1 className="absolute bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
+                    <h1 className="absolute !border-0 bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
                         一樓接待區
                     </h1>
                 </div>
@@ -42,7 +42,7 @@ const About: React.FC = () => {
             <div className="mx-auto  flex justify-around items-center mb-32">
                 <div className="relative rounded-2xl overflow-hidden">
                     <Image src={second_floor} width={500} alt="reception" />
-                    <h1 className="absolute bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
+                    <h1 className="absolute !border-0 bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
                         二樓候診區
                     </h1>
                 </div>
@@ -57,7 +57,7 @@ const About: React.FC = () => {
                 </p>
                 <div className="relative rounded-2xl overflow-hidden">
                     <Image src={sincece} width={500} alt="reception" />
-                    <h1 className="absolute bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
+                    <h1 className="absolute !border-0 bottom-0 left-10 rounded-3xl text-sm text-slate-700 py-1 px-2 select-none dialog">
                         二樓診療室
                     </h1>
                 </div>
