@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const About: React.FC = () => {
     return (
-        <section>
+        <section className="pb-8">
             <div className="banner__container absolute w-full overflow-hidden left-0 h-40">
                 <Image
                     src={banner}
@@ -27,7 +27,7 @@ const About: React.FC = () => {
             </div>
             <h1 className="pt-44 mb-8">診所介紹</h1>
 
-            <div className="mx-auto  flex justify-around items-center mb-8">
+            <div className="mx-auto  flex justify-around items-center">
                 <p className="text-wrap w-[600px] ">
                     我們的理念是結合專業與關懷，為每一位患者提供最優質、個人化的口腔護理體驗。我們相信，健康與美麗應該是相輔相成的，因此我們專注於不僅提升您的口腔健康，更致力於打造自然、自信的笑容。診所秉持細緻的醫療品質，並注重每一個診療細節，確保患者在舒適的環境中，享受最先進的技術與貼心的服務。我們的目標是讓每一位患者都能擁有澄澈的微笑，臻於完美的美學境界。
                 </p>
