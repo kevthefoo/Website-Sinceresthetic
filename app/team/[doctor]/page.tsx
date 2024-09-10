@@ -23,7 +23,7 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
                 {doctorName} {doctorTitle}
             </h1>
             <div className="flex justify-evenly items-end">
-                <div className="self-stretch border-4 border-slate-400 rounded-xl overflow-hidden shadow-lg">
+                <div className="self-stretch">
                     <Image
                         src={imagePath}
                         alt={doctor}
