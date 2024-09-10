@@ -35,28 +35,62 @@ const Team: React.FC = () => {
 
             <h1 className="pt-44 mb-8">團隊成員</h1>
             <div className="members__container">
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black main__dentist flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black main__dentist flex flex-col">
                     <Image src={doctor_0} alt="doctor_0" />
-                    {/* <div className="text-center">林昌言 院長</div>
-                    <div className="text-center">查看資訊</div> */}
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            林昌言 院長
+                        </h1>
+                    </div>
                 </div>
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
                     <Image src={doctor_1} alt="doctor_1" />
+
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            江逆鱗 醫師
+                        </h1>
+                    </div>
                 </div>
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
                     <Image src={doctor_2} alt="doctor_1" />
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            林強尼 醫師
+                        </h1>
+                    </div>
                 </div>
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
                     <Image src={doctor_3} alt="doctor_1" />
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            林安海 醫師
+                        </h1>
+                    </div>
                 </div>
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
                     <Image src={doctor_4} alt="doctor_1" />
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            林波波 醫師
+                        </h1>
+                    </div>
                 </div>
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
                     <Image src={doctor_5} alt="doctor_1" />
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            林波奇 醫師
+                        </h1>
+                    </div>
                 </div>
-                <div className="hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
+                <div className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col">
                     <Image src={doctor_6} alt="doctor_1" />
+                    <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
+                        <h1 className="text-white translate-y-1">
+                            林森林 醫師
+                        </h1>
+                    </div>
                 </div>
             </div>
         </section>
