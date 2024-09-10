@@ -16,7 +16,7 @@ const Header: React.FC = () => {
     return (
         <header className="fixed w-full flex border-b-2 items-center justify-between px-32 py-2 h-20  bg-white z-[100]">
             {/* Logo */}
-            <div className="flex items-center justify-center gap-2">
+            <Link href="/" className="flex items-center justify-center gap-2">
                 <Image src={logo} alt="logo" height={50} />
                 <div className="select-none">
                     <h5 className="text-xl">澄臻美學牙醫診所</h5>
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
                         Sinceresthetic Dental Clinic
                     </h5>
                 </div>
-            </div>
+            </Link>
 
             {/* Navigation Menu */}
             <NavigationMenu>
