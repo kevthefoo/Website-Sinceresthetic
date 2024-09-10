@@ -37,7 +37,7 @@ const Team: React.FC = () => {
             <div className="members__container">
                 <Link
                     href="/team/johnny"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black main__dentist flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black main__dentist flex flex-col"
                 >
                     <Image src={doctor_0} alt="doctor_0" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
@@ -49,7 +49,7 @@ const Team: React.FC = () => {
 
                 <Link
                     href="/team/mary"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
                 >
                     <Image src={doctor_1} alt="doctor_1" />
 
@@ -62,7 +62,7 @@ const Team: React.FC = () => {
 
                 <Link
                     href="/team/tom"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
                 >
                     <Image src={doctor_2} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
@@ -74,7 +74,7 @@ const Team: React.FC = () => {
 
                 <Link
                     href="/team/jerry"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
                 >
                     <Image src={doctor_3} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
@@ -86,7 +86,7 @@ const Team: React.FC = () => {
 
                 <Link
                     href="/team/linda"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
                 >
                     <Image src={doctor_4} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
@@ -98,7 +98,7 @@ const Team: React.FC = () => {
 
                 <Link
                     href="/team/david"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
                 >
                     <Image src={doctor_5} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
@@ -110,7 +110,7 @@ const Team: React.FC = () => {
 
                 <Link
                     href="/team/jennifer"
-                    className="relative hover:scale-105 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
+                    className="relative hover:scale-105 hover:z-10 cursor-pointer overflow-hidden border-2 border-black flex flex-col"
                 >
                     <Image src={doctor_6} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
