@@ -63,13 +63,17 @@ const Footer: React.FC = () => {
                 </NavigationMenuItem>
             </NavigationMenu>
 
-            <div className="absolute right-[200px] top-[50%] translate-y-[-50%] flex flex-col justify-center items-start">
-                <div>澄臻美學牙醫診所</div>
-
+            <div className="absolute right-[200px] top-[50%] translate-y-[-50%] flex flex-col justify-center items-start gap-2">
                 <div className="flex items-center justify-center">
                     <FaLocationDot />
                     <h3>
-                        <a href="https://maps.app.goo.gl/KR8gV53LadBkzzG4A" target="_blank">地址: 台中北屯區文心路四段151號</a>
+                        <Link
+                            href="https://maps.app.goo.gl/KR8gV53LadBkzzG4A"
+                            target="_blank"
+                            className="hover:underline"
+                        >
+                            地址: 台中北屯區文心路四段151號
+                        </Link>
                     </h3>
                 </div>
                 <div className="flex items-center justify-center">
