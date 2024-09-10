@@ -32,13 +32,15 @@ const Header: React.FC = () => {
   }, [active]);
 
   return (
-    <header className="max-rg_desktop:px-8 fixed z-[100] flex h-20 w-full items-center justify-between border-b-2 bg-white px-32 py-2">
+    <header className="fixed z-[100] flex h-20 w-full items-center justify-between border-b-2 bg-white px-32 py-2 max-rg_desktop:px-8">
       {/* Logo */}
       <Link href="/" className="flex items-center justify-center gap-2">
         <Image src={logo} alt="logo" height={50} />
         <div className="select-none">
-          <h5 className="text-xl">澄臻美學牙醫診所</h5>
-          <h5 className="text-[13px]">Sinceresthetic Dental Clinic</h5>
+          <h5 className="text-xl max-rg_mobile:text-base">澄臻美學牙醫診所</h5>
+          <h5 className="text-[13px] max-rg_mobile:text-[10.5px]">
+            Sinceresthetic Dental Clinic
+          </h5>
         </div>
       </Link>
 
@@ -100,7 +102,7 @@ const Header: React.FC = () => {
       </NavigationMenu>
 
       {/* Social Media Icons */}
-      <div className="max-lg_tablet:hidden flex items-center justify-center gap-2">
+      <div className="flex items-center justify-center gap-2 max-lg_tablet:hidden">
         <Link href="https://instagram.com/sinceresthetic" target="_blank">
           <i className="text-2xl">
             <FaInstagramSquare />
@@ -123,7 +125,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Menu Toggle Button*/}
       <div
-        className="max-lg_tablet:flex absolute right-8 top-[50%] z-50 hidden h-7 w-7 translate-y-[-50%] cursor-pointer flex-col justify-between"
+        className="absolute right-8 top-[50%] z-50 hidden h-7 w-7 translate-y-[-50%] cursor-pointer flex-col justify-between max-lg_tablet:flex"
         onClick={() => {
           handleActive();
         }}
