@@ -52,7 +52,7 @@ p {
   font-size: 1.25rem;
   line-height: 2rem;
   text-wrap: wrap;
-  @apply max-rg_tablet:text-base max-rg_mobile:text-sm;
+  @apply max-rg_tablet:text-base max-rg_tablet:leading-7 max-rg_mobile:text-sm max-rg_mobile:leading-6;
 }
 
 a {
