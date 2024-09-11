@@ -21,9 +21,9 @@ const Hero: React.FC = () => {
                     className="absolute top-0 left-0 z-1"
                 />
                 <Reveal yTranslate={0} xTranslate={100}>
-                    <div className="dialog w-2/5 absolute right-8 bottom-24 rounded-[50px] flex flex-col justify-start items-center px-8 py-4">
-                        <h1>澄臻美學牙醫診所</h1>
-                        <p className="text-wrap">
+                    <div className="dialog w-[600px] max-sm_tablet:w-[400px] max-rg_mobile:w-[300px] absolute right-8 bottom-24 rounded-[50px] flex flex-col justify-start items-center px-8 py-4">
+                        <h1 className="max-rg_tablet:text-xl max-rg_mobile:text-base">澄臻美學牙醫診所</h1>
+                        <p className="text-wrap max-rg_tablet:text-base max-rg_mobile:text-sm">
                             在澄臻美學牙醫診所，我們以專業的技術與藝術的設計，為您打造專屬於您的完美笑容。無論是牙齒美白、矯正，還是全口設計，我們的專家團隊將細心雕琢每一顆牙齒，讓您的笑容煥發自信光彩。
                         </p>
                     </div>
