@@ -7,7 +7,7 @@ import Reveal from "@/app/Components/Reveal/Reveal";
 const Introduction: React.FC = () => {
   return (
     <section
-      className="relative flex flex-col items-center justify-start bg-gradient-to-b from-white to-gray-100 pb-8"
+      className="relative flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 pb-8"
       id="introduction"
     >
       <h1 className="mb-8 text-gray-800">微笑的藝術</h1>
@@ -28,7 +28,7 @@ const Introduction: React.FC = () => {
           <Link
             href="https://page.line.me/920oaogn?openQrModal=true"
             target="_blank"
-            className="rounded-[50px] border-2 border-[var(--main-theme)] px-6 py-3 max-rg_mobile:px-4 max-rg_mobile:py-2 transition-colors duration-300 hover:bg-[var(--main-theme)] hover:text-white"
+            className="rounded-[50px] border-2 border-[var(--main-theme)] px-6 py-3 transition-colors duration-300 hover:bg-[var(--main-theme)] hover:text-white max-rg_mobile:px-4 max-rg_mobile:py-2"
           >
             立即預約
           </Link>
