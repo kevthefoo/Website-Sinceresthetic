@@ -10,7 +10,7 @@ const Introduction: React.FC = () => {
       className="relative flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 pb-8"
       id="introduction"
     >
-      <h1 className="mb-8 text-gray-800">微笑的藝術</h1>
+      <h1 className="text-gray-800">微笑的藝術</h1>
       <div className="relative mb-8 h-[200px] w-[200px] overflow-hidden rounded-full border-4 border-slate-300 shadow-lg max-rg_mobile:h-[150px] max-rg_mobile:w-[150px]">
         <Image src={smiling_girl} alt="smiling_art" fill={true} className="" />
       </div>

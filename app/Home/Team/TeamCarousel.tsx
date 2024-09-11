@@ -54,7 +54,7 @@ const TeamCarousel: React.FC = () => {
 
                   <h1>林昌言</h1>
                   <div>
-                    <table className="styled-table">
+                    <table className="styled-table max-rg_mobile:!text-[12px]">
                       <thead>
                         <tr>
                           <th>時間</th>
