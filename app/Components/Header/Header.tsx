@@ -167,7 +167,7 @@ const Header: React.FC = () => {
       <div
         className={
           active
-            ? "fixed left-0 top-0 z-10 flex h-screen w-full flex-col items-center justify-start border-2 border-red-500 bg-white pt-[300px] transition duration-700 ease-linear"
+            ? "fixed left-0 top-0 z-10 flex h-full w-full flex-col items-center justify-start border-2 border-red-500 bg-white pt-[300px] transition duration-700 ease-linear"
             : "fixed left-full top-0 z-10 flex h-screen w-full items-center justify-center bg-white transition duration-700 ease-linear"
         }
       >
