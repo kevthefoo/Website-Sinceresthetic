@@ -36,7 +36,7 @@ const ServicesCarousel: React.FC = () => {
                 ]}
             >
                 <CarouselContent className="">
-                    <CarouselItem className="basis-1/4 h-full ">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full ">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -54,7 +54,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -72,7 +72,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -90,7 +90,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -108,7 +108,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -126,7 +126,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -144,7 +144,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -162,7 +162,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
@@ -180,7 +180,7 @@ const ServicesCarousel: React.FC = () => {
                         </div>
                     </CarouselItem>
 
-                    <CarouselItem className="basis-1/4 h-full">
+                    <CarouselItem className="basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full h-full">
                         <div className="">
                             <Card className="rounded-[50px]">
                                 <CardContent className="p-0 rounded-[50px] overflow-hidden flex flex-col aspect-square items-center justify-start ">
