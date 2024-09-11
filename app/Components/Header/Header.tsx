@@ -34,8 +34,14 @@ const Header: React.FC = () => {
   return (
     <header className="fixed z-[100] flex h-20 w-full items-center justify-between border-b-2 bg-white px-32 py-2 max-rg_desktop:px-8">
       {/* Logo */}
-      <Link href="/" className="flex items-center justify-center gap-2">
-        <Image src={logo} alt="logo" height={50} />
+      <Link
+        href="/"
+        className="flex items-center justify-center gap-2 max-rg_mobile:gap-1"
+      >
+        <div className="w-p[50px] relative h-[50px] w-[50px] max-rg_mobile:h-[35px] max-rg_mobile:w-[35px]">
+          <Image src={logo} alt="logo" fill={true} className="" />
+        </div>
+
         <div className="select-none">
           <h5 className="text-xl max-rg_mobile:text-base">澄臻美學牙醫診所</h5>
           <h5 className="text-[13px] max-rg_mobile:text-[10.5px]">
@@ -102,7 +108,13 @@ const Header: React.FC = () => {
       </NavigationMenu>
 
       {/* Social Media Icons */}
-      <div className="flex items-center justify-center gap-2 max-lg_tablet:hidden">
+      <div
+        className={
+          active
+            ? "flex items-center justify-center gap-2 max-lg_tablet:absolute max-lg_tablet:left-[50%] max-lg_tablet:top-[200px] max-lg_tablet:z-20 max-lg_tablet:translate-x-[-50%]"
+            : "flex items-center justify-center gap-2 max-lg_tablet:hidden"
+        }
+      >
         <Link href="https://instagram.com/sinceresthetic" target="_blank">
           <i className="text-2xl">
             <FaInstagramSquare />
@@ -155,8 +167,8 @@ const Header: React.FC = () => {
       <div
         className={
           active
-            ? "fixed left-0 top-0 z-30 flex h-screen w-full flex-col items-center justify-start bg-white pt-[300px] transition duration-700 ease-linear"
-            : "fixed left-full top-0 z-30 flex h-screen w-full items-center justify-center bg-white transition duration-700 ease-linear"
+            ? "fixed left-0 top-0 z-10 flex h-screen w-full flex-col items-center justify-start border-2 border-red-500 bg-white pt-[300px] transition duration-700 ease-linear"
+            : "fixed left-full top-0 z-10 flex h-screen w-full items-center justify-center bg-white transition duration-700 ease-linear"
         }
       >
         <nav className={active ? "" : ""}>
