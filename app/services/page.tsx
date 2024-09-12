@@ -38,7 +38,7 @@ const Services: React.FC = () => {
       <div className="vgrid-cols-1 grid grid-flow-row auto-rows-[minmax(0,_1fr)] grid-cols-3 grid-rows-2 gap-4 max-rg_tablet:grid-cols-2">
         <Link
           href="/services/dental_implant"
-          className="cursor-pointer overflow-hidden rounded-2xl"
+          className="member__card cursor-pointer overflow-hidden rounded-2xl"
         >
           <div className="relative">
             <Image
@@ -60,7 +60,7 @@ const Services: React.FC = () => {
 
         <Link
           href="/services/teeth_whitening"
-          className="cursor-pointer overflow-hidden rounded-2xl"
+          className="member__card cursor-pointer overflow-hidden rounded-2xl"
         >
           <div className="relative">
             <Image
@@ -82,7 +82,7 @@ const Services: React.FC = () => {
 
         <Link
           href="/services/ceramic_crown"
-          className="cursor-pointer overflow-hidden rounded-2xl"
+          className="member__card cursor-pointer overflow-hidden rounded-2xl"
         >
           <div className="relative">
             <Image
@@ -104,7 +104,7 @@ const Services: React.FC = () => {
 
         <Link
           href="/services/family_dentist"
-          className="cursor-pointer overflow-hidden rounded-2xl"
+          className="member__card cursor-pointer overflow-hidden rounded-2xl"
         >
           <div className="relative">
             <Image
@@ -126,7 +126,7 @@ const Services: React.FC = () => {
 
         <Link
           href="/services/root_canal_treatment"
-          className="cursor-pointer overflow-hidden rounded-2xl"
+          className="member__card cursor-pointer overflow-hidden rounded-2xl"
         >
           <div className="relative">
             <Image
@@ -148,7 +148,7 @@ const Services: React.FC = () => {
 
         <Link
           href="/services/children_dentist"
-          className="cursor-pointer overflow-hidden rounded-2xl"
+          className="member__card cursor-pointer overflow-hidden rounded-2xl"
         >
           <div className="relative">
             <Image

@@ -1,11 +1,23 @@
 .members__container {
-    display: grid;
-    height: 100%;
-    grid-template-columns: 450px repeat(3, 1fr);
-    grid-template-rows: repeat(2, 250px);
+  display: grid;
+  height: 100%;
+  grid-template-columns: 40% repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
-.main__dentist{
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
+.main__dentist {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+@media screen and (max-width: 992px) {
+  .members__container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .main__dentist {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
 }
