@@ -41,7 +41,7 @@ const Team: React.FC = () => {
                 >
                     <Image src={doctor_0} alt="doctor_0" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             林昌言 院長
                         </h1>
                     </div>
@@ -54,7 +54,7 @@ const Team: React.FC = () => {
                     <Image src={doctor_1} alt="doctor_1" />
 
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             江逆鱗 醫師
                         </h1>
                     </div>
@@ -66,7 +66,7 @@ const Team: React.FC = () => {
                 >
                     <Image src={doctor_2} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             林強尼 醫師
                         </h1>
                     </div>
@@ -78,7 +78,7 @@ const Team: React.FC = () => {
                 >
                     <Image src={doctor_3} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             林安海 醫師
                         </h1>
                     </div>
@@ -90,7 +90,7 @@ const Team: React.FC = () => {
                 >
                     <Image src={doctor_4} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             林波波 醫師
                         </h1>
                     </div>
@@ -102,7 +102,7 @@ const Team: React.FC = () => {
                 >
                     <Image src={doctor_5} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             林波奇 醫師
                         </h1>
                     </div>
@@ -114,7 +114,7 @@ const Team: React.FC = () => {
                 >
                     <Image src={doctor_6} alt="doctor_1" />
                     <div className="absolute w-full h-12 bg-[rgba(0,0,0,0.65)] bottom-0 flex-col  justify-center items-center">
-                        <h1 className="text-white translate-y-1">
+                        <h1 className="text-white translate-y-[50%]">
                             林森林 醫師
                         </h1>
                     </div>
