@@ -52,7 +52,7 @@ const About: React.FC = () => {
         </p>
       </div>
 
-      <div className="mx-auto mb-32 flex items-center justify-around overflow-hidden max-lg_tablet:flex-col">
+      <div className="mx-auto  flex items-center justify-around overflow-hidden max-lg_tablet:flex-col">
         <p className="w-[400px] text-wrap max-rg_desktop:w-[350px] max-lg_tablet:order-1 max-lg_tablet:w-full">
           澄臻美學牙醫診所採用最先進的高科技設備，為每一位患者提供精準、快速且高效的診療服務。我們引進數位化3D口腔掃描儀、低輻射X光機和電腦輔助設計及製作(CAD/CAM)系統，讓患者在診療過程中感受到最先進技術的優勢。這些設備不僅縮短了治療時間，還提升了診療精度，減少傳統治療方式帶來的不適。我們的高科技設備結合專業團隊的技術，確保每一次的診療都達到最高的醫療標準，為患者提供最安全、最舒適的診療體驗，實現健康與美學的完美平衡。
         </p>
