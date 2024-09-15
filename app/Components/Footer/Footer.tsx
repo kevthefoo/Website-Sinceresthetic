@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div>Copyright© {currentYear} 澄臻美學牙醫診所</div>
+      <div>Copyright ©{currentYear} 澄臻美學牙醫診所</div>
     </footer>
   );
 };
