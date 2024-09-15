@@ -1,32 +1,32 @@
 import React from "react";
 import Image from "next/image";
-import DoctorData from "../DoctorData";
-import "./doctor.css";
+import DentistData from "../DentistData";
+import "./dentist.css";
 
 interface DentistProps {
   params: {
-    doctor: string;
+    dentist: string;
   };
 }
 
 const Dentist: React.FC<DentistProps> = ({ params }) => {
-  const { doctor } = params;
-  const doctorName = DoctorData[doctor].chineseName;
-  const doctorTitle = DoctorData[doctor].title;
-  const doctorEducation = DoctorData[doctor].education;
-  const doctorExperience = DoctorData[doctor].experience;
+  const { dentist } = params;
+  const dentistName = DentistData[dentist].chineseName;
+  const dentistTitle = DentistData[dentist].title;
+  const dentistEducation = DentistData[dentist].education;
+  const dentistExperience = DentistData[dentist].experience;
 
-  const imagePath = `/images/dentist/${doctor}.png`;
+  const imagePath = `/images/dentist/${dentist}.png`;
   return (
     <section className="flex flex-col justify-center bg-gradient-to-b from-white to-gray-100 max-lg_tablet:pb-12 max-lg_tablet:pt-24">
       <h1>
-        {doctorName} {doctorTitle}
+        {dentistName} {dentistTitle}
       </h1>
       <div className="flex items-end justify-evenly max-lg_tablet:flex-col max-lg_tablet:items-center max-lg_tablet:justify-center max-lg_tablet:gap-12">
         <div className="relative aspect-[3/4] h-[330px] overflow-hidden rounded-xl border-4 border-slate-400 shadow-lg max-lg_tablet:aspect-square max-lg_tablet:h-auto max-lg_tablet:w-[200px] max-lg_tablet:rounded-full">
           <Image
             src={imagePath}
-            alt={`澄臻美學牙醫診所 |  ${doctor}`}
+            alt={`澄臻美學牙醫診所 |  ${dentist}`}
             fill={true}
             priority={true}
             style={{
@@ -41,7 +41,7 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
             <p className="mr-2">專科:</p>
 
             <ol className="flex items-center justify-center text-xl">
-              {DoctorData[doctor].speciality.map((speciality, index) => (
+              {DentistData[dentist].speciality.map((speciality, index) => (
                 <li key={index} className="mr-2">
                   <p>{speciality}/</p>
                 </li>
@@ -49,9 +49,9 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
             </ol>
           </div>
 
-          <p className="mb-4">學歷: {doctorEducation}</p>
+          <p className="mb-4">學歷: {dentistEducation}</p>
 
-          <p className="mb-4">經歷: {doctorExperience}</p>
+          <p className="mb-4">經歷: {dentistExperience}</p>
 
           <div className="">
             <p>看診時間</p>
