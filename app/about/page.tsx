@@ -1,10 +1,10 @@
 import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
-import banner from "@/public/images/logo/banner_1.png";
+import banner from "@/public/images/banner/banner_1.png";
 import reception from "@/public/images/clinic/reception.png";
 import second_floor from "@/public/images/clinic/second_floor.png";
-import sincece from "@/public/images/clinic/treatment_area_2.png.jpg";
+import sincece from "@/public/images/clinic/treatment_area_2.png";
 
 export const metadata: Metadata = {
   title: "關於澄臻",
@@ -19,10 +19,11 @@ const About: React.FC = () => {
           src={banner}
           alt="banner"
           fill={true}
-          objectFit="cover"
+          
           objectPosition="0 -10px"
           priority={true}
           placeholder="blur"
+          style={{objectFit: "cover"}}
         />
       </div>
       <h1 className="mb-8 pt-44">診所介紹</h1>

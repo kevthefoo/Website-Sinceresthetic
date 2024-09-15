@@ -13,7 +13,6 @@ const Hero: React.FC = () => {
         <Image
           src={reception}
           fill={true}
-          objectFit="cover"
           objectPosition="center"
           priority={true}
           placeholder="blur"

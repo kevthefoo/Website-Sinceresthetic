@@ -5,13 +5,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./team.css";
 
-import doctor_0 from "@/public/images/doctor/johnny.png";
-import popo from "@/public/images/doctor/tom.png";
-import doctor_2 from "@/public/images/doctor/david.png";
-import doctor_3 from "@/public/images/doctor/jerry.png";
-import doctor_4 from "@/public/images/doctor/linda.png";
-import doctor_5 from "@/public/images/doctor/mary.png";
-import doctor_6 from "@/public/images/doctor/jennifer.png";
+import doctor_0 from "@/public/images/dentist/johnny.png";
+import popo from "@/public/images/dentist/tom.png";
+import doctor_2 from "@/public/images/dentist/david.png";
+import doctor_3 from "@/public/images/dentist/jerry.png";
+import doctor_4 from "@/public/images/dentist/linda.png";
+import doctor_5 from "@/public/images/dentist/mary.png";
+import doctor_6 from "@/public/images/dentist/jennifer.png";
 
 export const metadata: Metadata = {
   title: "醫療團隊",
@@ -26,7 +26,7 @@ const Team: React.FC = () => {
           src={banner}
           alt="banner"
           fill={true}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           objectPosition="0 -10px"
           priority={true}
           placeholder="blur"

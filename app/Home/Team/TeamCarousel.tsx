@@ -4,13 +4,13 @@ import "./team.css";
 
 import Image from "next/image";
 
-import doctor_0 from "@/public/images/doctor/johnny.png";
-import popo from "@/public/images/doctor/jerry.png";
-import doctor_2 from "@/public/images/doctor/david.png";
-import doctor_3 from "@/public/images/doctor/tom.png";
-import doctor_4 from "@/public/images/doctor/mary.png";
-import doctor_5 from "@/public/images/doctor/linda.png";
-import doctor_6 from "@/public/images/doctor/jennifer.png";
+import doctor_0 from "@/public/images/dentist/johnny.png";
+import popo from "@/public/images/dentist/jerry.png";
+import doctor_2 from "@/public/images/dentist/david.png";
+import doctor_3 from "@/public/images/dentist/tom.png";
+import doctor_4 from "@/public/images/dentist/mary.png";
+import doctor_5 from "@/public/images/dentist/linda.png";
+import doctor_6 from "@/public/images/dentist/jennifer.png";
 
 import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
@@ -46,7 +46,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_0}
                       alt="doctor_0"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />
@@ -110,7 +110,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={popo}
                       alt="popo"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />
@@ -174,7 +174,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_2}
                       alt="doctor_2"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />
@@ -238,7 +238,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_3}
                       alt="doctor_3"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />
@@ -301,7 +301,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_4}
                       alt="doctor_4"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />
@@ -364,7 +364,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_5}
                       alt="doctor_5"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />
@@ -428,7 +428,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_6}
                       alt="doctor_6"
-                      objectFit="cover"
+                      style={{ objectFit: "cover" }}
                       objectPosition="center"
                       placeholder="blur"
                     />

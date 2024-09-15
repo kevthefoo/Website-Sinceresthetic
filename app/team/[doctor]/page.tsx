@@ -16,7 +16,7 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
   const doctorEducation = DoctorData[doctor].education;
   const doctorExperience = DoctorData[doctor].experience;
 
-  const imagePath = `/images/doctor/${doctor}.png`;
+  const imagePath = `/images/dentist/${doctor}.png`;
   return (
     <section className="flex flex-col justify-center bg-gradient-to-b from-white to-gray-100 max-lg_tablet:pb-12 max-lg_tablet:pt-24">
       <h1>

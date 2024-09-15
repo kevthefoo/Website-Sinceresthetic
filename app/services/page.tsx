@@ -27,7 +27,7 @@ const Services: React.FC = () => {
           src={banner}
           alt="banner"
           fill={true}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           objectPosition="0 -10px"
           priority={true}
           placeholder="blur"
@@ -44,7 +44,7 @@ const Services: React.FC = () => {
             <Image
               src={ceramic_crown}
               alt="service_1"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               objectPosition="center"
               priority={true}
               placeholder="blur"
@@ -66,7 +66,7 @@ const Services: React.FC = () => {
             <Image
               src={teeth_whitening}
               alt="service_3"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               objectPosition="center"
               priority={true}
               placeholder="blur"
@@ -88,7 +88,7 @@ const Services: React.FC = () => {
             <Image
               src={root_canal_treatment}
               alt="service_4"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               objectPosition="center"
               priority={true}
               placeholder="blur"
@@ -110,7 +110,7 @@ const Services: React.FC = () => {
             <Image
               src={family_dentist}
               alt="service_5"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               objectPosition="center"
               priority={true}
               placeholder="blur"
@@ -132,7 +132,7 @@ const Services: React.FC = () => {
             <Image
               src={dental_implant}
               alt="service_5"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               objectPosition="center"
               priority={true}
               placeholder="blur"
@@ -154,7 +154,7 @@ const Services: React.FC = () => {
             <Image
               src={children_dentist}
               alt="service_6"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               objectPosition="center"
               priority={true}
               placeholder="blur"

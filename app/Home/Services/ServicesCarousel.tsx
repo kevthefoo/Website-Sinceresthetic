@@ -44,7 +44,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={ceramic_crown}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -64,11 +64,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={root_canal_treatment}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -88,11 +88,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={dental_implant}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -112,11 +112,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={dental_implant}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -136,11 +136,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={root_canal_treatment}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -160,11 +160,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={children_dentist}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -184,11 +184,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={teeth_whitening}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -208,11 +208,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={teeth_whitening}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
@@ -232,11 +232,11 @@ const ServicesCarousel: React.FC = () => {
           <CarouselItem className="h-full basis-1/4 max-sm_desktop:basis-1/2 max-rg_tablet:basis-full">
             <div className="">
               <Card className="rounded-[50px]">
-                <CardContent className="flex  flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
+                <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={teeth_whitening}
                     alt="service_1"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     objectPosition="center"
                     placeholder="blur"
                     className="mb-4"
