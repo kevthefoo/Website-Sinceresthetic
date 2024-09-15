@@ -14,8 +14,9 @@ import dentist_5 from "@/public/images/dentist/mary.png";
 import dentist_6 from "@/public/images/dentist/jennifer.png";
 
 export const metadata: Metadata = {
-  title: "醫療團隊",
-  description: "",
+  title: "澄臻美學牙醫診所 | 醫療團隊",
+  description:
+    "澄臻美學牙醫診所 | 澄臻美學牙醫診所擁有一支專業的醫療團隊，包括、牙醫師、牙助等，致力於為每一位患者提供最優質的口腔護理服務。",
 };
 
 const Team: React.FC = () => {
@@ -27,7 +28,6 @@ const Team: React.FC = () => {
           alt="澄臻美學牙醫診所 | Banner"
           fill={true}
           style={{ objectFit: "cover", objectPosition: "0 -10px" }}
-           
           priority={true}
           placeholder="blur"
         />

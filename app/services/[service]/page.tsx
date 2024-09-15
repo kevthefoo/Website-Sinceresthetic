@@ -18,7 +18,6 @@ interface ServiceProps {
 
 const Service: React.FC<ServiceProps> = ({ params }) => {
   const { service } = params;
-
   const serviceName = ServicesData[service].chineseName;
   const serviceDescription = ServicesData[service].description;
   const imagePath = `/images/services/${service}.png`;

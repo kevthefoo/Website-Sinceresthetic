@@ -15,8 +15,8 @@ import root_canal_treatment from "@/public/images/services/root_canal_treatment.
 import teeth_whitening from "@/public/images/services/teeth_whitening.png";
 
 export const metadata: Metadata = {
-  title: "診療項目",
-  description: "",
+  title: "澄臻美學牙醫診所 | 診療項目",
+  description: "澄臻美學牙醫診所 | 澄臻美學牙醫診所提供多元化的口腔護理服務，包括全家人的牙齒保健、兒童牙科、牙齒美白、根管治療、瓷冠、牙科植體等，讓您擁有健康美麗的微笑。",
 };
 
 const Services: React.FC = () => {

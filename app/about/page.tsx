@@ -7,8 +7,8 @@ import second_floor from "@/public/images/clinic/second_floor.png";
 import sincece from "@/public/images/clinic/treatment_area_2.png";
 
 export const metadata: Metadata = {
-  title: "關於澄臻",
-  description: "",
+  title: "澄臻美學牙醫診所 | 關於澄臻",
+  description: "澄臻美學牙醫診所 | 澄臻美學牙醫診所以打造舒適且安心的診療環境為核心，讓每一位走進診所的患者都能感受到如家般的溫馨氛圍。",
 };
 
 const About: React.FC = () => {
