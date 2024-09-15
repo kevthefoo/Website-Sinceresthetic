@@ -40,8 +40,8 @@ const Team: React.FC = () => {
           className="main__dentist relative flex cursor-pointer flex-col overflow-hidden border-2 border-black hover:z-10 hover:scale-105"
         >
           <Image src={dentist_0} alt="澄臻美學牙醫診所 | 林昌言院長" />
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">林昌言 院長</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">林昌言 院長</h1>
           </div>
         </Link>
 
@@ -51,8 +51,8 @@ const Team: React.FC = () => {
         >
           <Image src={popo} alt="澄臻美學牙醫診所 | 江逆鱗醫師" />
 
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">江逆鱗 醫師</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">江逆鱗 醫師</h1>
           </div>
         </Link>
 
@@ -61,8 +61,8 @@ const Team: React.FC = () => {
           className="relative flex cursor-pointer flex-col overflow-hidden border-2 border-black hover:z-10 hover:scale-105"
         >
           <Image src={dentist_2} alt="澄臻美學牙醫診所 | 林強尼醫師" />
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">林強尼 醫師</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">林強尼 醫師</h1>
           </div>
         </Link>
 
@@ -71,8 +71,8 @@ const Team: React.FC = () => {
           className="relative flex cursor-pointer flex-col overflow-hidden border-2 border-black hover:z-10 hover:scale-105"
         >
           <Image src={dentist_3} alt="澄臻美學牙醫診所 | 林安海醫師" />
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">林安海 醫師</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">林安海 醫師</h1>
           </div>
         </Link>
 
@@ -81,8 +81,8 @@ const Team: React.FC = () => {
           className="relative flex cursor-pointer flex-col overflow-hidden border-2 border-black hover:z-10 hover:scale-105"
         >
           <Image src={dentist_4} alt="澄臻美學牙醫診所 | 林波波醫師" />
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">林波波 醫師</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">林波波 醫師</h1>
           </div>
         </Link>
 
@@ -91,8 +91,8 @@ const Team: React.FC = () => {
           className="relative flex cursor-pointer flex-col overflow-hidden border-2 border-black hover:z-10 hover:scale-105"
         >
           <Image src={dentist_5} alt="澄臻美學牙醫診所 | 林波奇醫師" />
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">林波奇 醫師</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">林波奇 醫師</h1>
           </div>
         </Link>
 
@@ -101,8 +101,8 @@ const Team: React.FC = () => {
           className="relative flex cursor-pointer flex-col overflow-hidden border-2 border-black hover:z-10 hover:scale-105"
         >
           <Image src={dentist_6} alt="澄臻美學牙醫診所 | 林森林醫師" />
-          <div className="absolute bottom-0 h-12 w-full flex-col items-center justify-center bg-[rgba(0,0,0,0.65)]">
-            <h1 className="translate-y-[50%] text-white">林森林 醫師</h1>
+          <div className="absolute bottom-0 flex h-12 w-full items-center justify-center bg-[rgba(0,0,0,0.65)]">
+            <h1 className="my-auto text-white">林森林 醫師</h1>
           </div>
         </Link>
       </div>
