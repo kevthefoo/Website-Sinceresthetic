@@ -5,7 +5,7 @@ import "./team.css";
 import Image from "next/image";
 
 import doctor_0 from "@/public/images/doctor/johnny.png";
-import doctor_1 from "@/public/images/doctor/jerry.png";
+import popo from "@/public/images/doctor/jerry.png";
 import doctor_2 from "@/public/images/doctor/david.png";
 import doctor_3 from "@/public/images/doctor/tom.png";
 import doctor_4 from "@/public/images/doctor/mary.png";
@@ -108,8 +108,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_1}
-                      alt="doctor_1"
+                      src={popo}
+                      alt="popo"
                       objectFit="cover"
                       objectPosition="center"
                       placeholder="blur"

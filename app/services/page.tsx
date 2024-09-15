@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import banner from "@/public/images/logo/banner_5.png";
+import banner from "@/public/images/logo/banner_1.png";
 import type { Metadata } from "next";
 
 import Link from "next/link";

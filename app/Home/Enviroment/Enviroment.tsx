@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sincere_5 from "@/public/images/clinic/sincere_5.png";
+import treatment_area_4.png from "@/public/images/clinic/treatment_area_4.png.png";
 import "./enviroment.css";
 import Reveal from "@/app/Components/Reveal/Reveal";
 
@@ -10,12 +10,12 @@ const Enviroment: React.FC = () => {
       id="envoroment"
     >
       <Image
-        src={sincere_5}
+        src={treatment_area_4.png}
         fill={true}
         objectFit="cover"
         objectPosition="center"
         placeholder="blur"
-        alt="sincere_5"
+        alt="treatment_area_4.png"
         className="image__div z-[-100]"
       />
 
