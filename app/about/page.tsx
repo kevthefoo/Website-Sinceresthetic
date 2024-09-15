@@ -8,7 +8,8 @@ import sincece from "@/public/images/clinic/treatment_area_2.png";
 
 export const metadata: Metadata = {
   title: "澄臻美學牙醫診所 | 關於澄臻",
-  description: "澄臻美學牙醫診所 | 澄臻美學牙醫診所以打造舒適且安心的診療環境為核心，讓每一位走進診所的患者都能感受到如家般的溫馨氛圍。",
+  description:
+    "澄臻美學牙醫診所 | 澄臻美學牙醫診所以打造舒適且安心的診療環境為核心，讓每一位走進診所的患者都能感受到如家般的溫馨氛圍。",
 };
 
 const About: React.FC = () => {
@@ -32,7 +33,11 @@ const About: React.FC = () => {
         </p>
 
         <div className="max-lg_tablet:order-0 relative aspect-video w-[500px] overflow-hidden rounded-2xl max-rg_desktop:w-[400px] max-lg_tablet:mb-4 max-lg_mobile:w-[350px] max-rg_mobile:w-[300px]">
-          <Image src={reception} fill={true} alt="澄臻美學牙醫診所 | 一樓接待區" />
+          <Image
+            src={reception}
+            fill={true}
+            alt="澄臻美學牙醫診所 | 一樓接待區"
+          />
           <h1 className="dialog absolute bottom-3 left-3 mb-0 select-none rounded-3xl !border-0 px-2 py-1 text-sm text-slate-700">
             一樓接待區
           </h1>
@@ -41,7 +46,11 @@ const About: React.FC = () => {
 
       <div className="mx-auto mb-32 flex items-center justify-around overflow-hidden max-lg_tablet:flex-col">
         <div className="max-lg_tablet:order-0 relative aspect-video w-[500px] overflow-hidden rounded-2xl max-rg_desktop:w-[400px] max-lg_tablet:mb-4 max-lg_mobile:w-[350px] max-rg_mobile:w-[300px]">
-          <Image src={second_floor} fill={true} alt="澄臻美學牙醫診所 | 二樓候診區" />
+          <Image
+            src={second_floor}
+            fill={true}
+            alt="澄臻美學牙醫診所 | 二樓候診區"
+          />
           <h1 className="dialog absolute bottom-3 left-3 mb-0 select-none rounded-3xl !border-0 px-2 py-1 text-sm text-slate-700">
             二樓候診區
           </h1>
@@ -57,7 +66,11 @@ const About: React.FC = () => {
         </p>
 
         <div className="max-lg_tablet:order-0 relative aspect-video w-[500px] overflow-hidden rounded-2xl max-rg_desktop:w-[400px] max-lg_tablet:mb-4 max-lg_mobile:w-[350px] max-rg_mobile:w-[300px]">
-          <Image src={sincece} fill={true} alt="澄臻美學牙醫診所 | 二樓診療室" />
+          <Image
+            src={sincece}
+            fill={true}
+            alt="澄臻美學牙醫診所 | 二樓診療室"
+          />
           <h1 className="dialog absolute bottom-3 left-3 mb-0 select-none rounded-3xl !border-0 px-2 py-1 text-sm text-slate-700">
             二樓診療室
           </h1>
