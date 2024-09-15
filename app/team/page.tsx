@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import banner from "@/public/images/logo/banner_1.png";
+import banner from "@/public/images/banner/banner_1.png";
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./team.css";
@@ -26,8 +26,8 @@ const Team: React.FC = () => {
           src={banner}
           alt="banner"
           fill={true}
-          style={{ objectFit: "cover" }}
-          objectPosition="0 -10px"
+          style={{ objectFit: "cover", objectPosition: "0 -10px" }}
+           
           priority={true}
           placeholder="blur"
         />

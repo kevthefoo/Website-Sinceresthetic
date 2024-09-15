@@ -46,8 +46,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_0}
                       alt="doctor_0"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>
@@ -110,8 +109,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={popo}
                       alt="popo"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>
@@ -174,8 +172,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_2}
                       alt="doctor_2"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>
@@ -238,8 +235,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_3}
                       alt="doctor_3"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>
@@ -301,8 +297,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_4}
                       alt="doctor_4"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>
@@ -364,8 +359,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_5}
                       alt="doctor_5"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>
@@ -428,8 +422,7 @@ const TeamCarousel: React.FC = () => {
                     <Image
                       src={doctor_6}
                       alt="doctor_6"
-                      style={{ objectFit: "cover" }}
-                      objectPosition="center"
+                      style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
                   </div>

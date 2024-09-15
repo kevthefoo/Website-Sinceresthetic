@@ -44,8 +44,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={ceramic_crown}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -68,8 +67,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={root_canal_treatment}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -92,8 +90,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={dental_implant}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -116,8 +113,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={dental_implant}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -140,8 +136,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={root_canal_treatment}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -164,8 +159,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={children_dentist}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -188,8 +182,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={teeth_whitening}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -212,8 +205,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={teeth_whitening}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />
@@ -236,8 +228,7 @@ const ServicesCarousel: React.FC = () => {
                   <Image
                     src={teeth_whitening}
                     alt="service_1"
-                    style={{ objectFit: "cover" }}
-                    objectPosition="center"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
                   />

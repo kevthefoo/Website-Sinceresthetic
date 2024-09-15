@@ -12,8 +12,7 @@ const Enviroment: React.FC = () => {
       <Image
         src={treatment_area_4}
         fill={true}
-        style={{ objectFit: "cover" }}
-        objectPosition="center"
+        style={{ objectFit: "cover", objectPosition: "center" }}
         placeholder="blur"
         alt="treatment_area_4.png"
         className="image__div z-[-100]"

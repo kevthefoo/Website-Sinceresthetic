@@ -19,11 +19,9 @@ const About: React.FC = () => {
           src={banner}
           alt="banner"
           fill={true}
-          
-          objectPosition="0 -10px"
           priority={true}
           placeholder="blur"
-          style={{objectFit: "cover"}}
+          style={{ objectFit: "cover", objectPosition: "0 -10px" }}
         />
       </div>
       <h1 className="mb-8 pt-44">診所介紹</h1>

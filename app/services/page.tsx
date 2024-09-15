@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import banner from "@/public/images/logo/banner_1.png";
+import banner from "@/public/images/banner/banner_1.png";
 import type { Metadata } from "next";
 
 import Link from "next/link";
@@ -27,8 +27,7 @@ const Services: React.FC = () => {
           src={banner}
           alt="banner"
           fill={true}
-          style={{ objectFit: "cover" }}
-          objectPosition="0 -10px"
+          style={{ objectFit: "cover", objectPosition: "0 -10px" }}
           priority={true}
           placeholder="blur"
         />
@@ -44,8 +43,7 @@ const Services: React.FC = () => {
             <Image
               src={ceramic_crown}
               alt="service_1"
-              style={{ objectFit: "cover" }}
-              objectPosition="center"
+              style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
               className="flash-effect"
@@ -66,8 +64,7 @@ const Services: React.FC = () => {
             <Image
               src={teeth_whitening}
               alt="service_3"
-              style={{ objectFit: "cover" }}
-              objectPosition="center"
+              style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
               className="flash-effect"
@@ -88,8 +85,7 @@ const Services: React.FC = () => {
             <Image
               src={root_canal_treatment}
               alt="service_4"
-              style={{ objectFit: "cover" }}
-              objectPosition="center"
+              style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
               className="flash-effect"
@@ -110,8 +106,7 @@ const Services: React.FC = () => {
             <Image
               src={family_dentist}
               alt="service_5"
-              style={{ objectFit: "cover" }}
-              objectPosition="center"
+              style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
               className="flash-effect"
@@ -132,8 +127,7 @@ const Services: React.FC = () => {
             <Image
               src={dental_implant}
               alt="service_5"
-              style={{ objectFit: "cover" }}
-              objectPosition="center"
+              style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
               className="flash-effect"
@@ -154,8 +148,7 @@ const Services: React.FC = () => {
             <Image
               src={children_dentist}
               alt="service_6"
-              style={{ objectFit: "cover" }}
-              objectPosition="center"
+              style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
               className="flash-effect"
