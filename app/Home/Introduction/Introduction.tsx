@@ -12,7 +12,7 @@ const Introduction: React.FC = () => {
     >
       <h1 className="text-gray-800">微笑的藝術</h1>
       <div className="relative mb-8 h-[200px] w-[200px] overflow-hidden rounded-full border-4 border-slate-300 shadow-lg max-rg_mobile:h-[150px] max-rg_mobile:w-[150px]">
-        <Image src={smiling_girl} alt="smiling_art" fill={true} className="" />
+        <Image src={smiling_girl} alt="澄臻美學牙醫診所 | 微笑的藝術" fill={true} className="" />
       </div>
 
       <Reveal>

@@ -25,7 +25,7 @@ const Services: React.FC = () => {
       <div className="banner__container absolute left-0 h-40 w-full overflow-hidden">
         <Image
           src={banner}
-          alt="banner"
+          alt="澄臻美學牙醫診所 | Banner"
           fill={true}
           style={{ objectFit: "cover", objectPosition: "0 -10px" }}
           priority={true}
@@ -42,7 +42,7 @@ const Services: React.FC = () => {
           <div className="relative">
             <Image
               src={ceramic_crown}
-              alt="service_1"
+              alt="澄臻美學牙醫診所 | 全植牙"
               style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
@@ -63,7 +63,7 @@ const Services: React.FC = () => {
           <div className="relative">
             <Image
               src={teeth_whitening}
-              alt="service_3"
+              alt="澄臻美學牙醫診所 | 牙齒美白"
               style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
@@ -84,7 +84,7 @@ const Services: React.FC = () => {
           <div className="relative">
             <Image
               src={root_canal_treatment}
-              alt="service_4"
+              alt="澄臻美學牙醫診所 | 全瓷冠"
               style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
@@ -105,7 +105,7 @@ const Services: React.FC = () => {
           <div className="relative">
             <Image
               src={family_dentist}
-              alt="service_5"
+              alt="澄臻美學牙醫診所 | 家庭牙醫"
               style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
@@ -126,7 +126,7 @@ const Services: React.FC = () => {
           <div className="relative">
             <Image
               src={dental_implant}
-              alt="service_5"
+              alt="澄臻美學牙醫診所 | 顯微根管治療"
               style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"
@@ -147,7 +147,7 @@ const Services: React.FC = () => {
           <div className="relative">
             <Image
               src={children_dentist}
-              alt="service_6"
+              alt="澄臻美學牙醫診所 | 兒童牙醫"
               style={{ objectFit: "cover", objectPosition: "center" }}
               priority={true}
               placeholder="blur"

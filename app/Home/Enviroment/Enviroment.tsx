@@ -14,7 +14,7 @@ const Enviroment: React.FC = () => {
         fill={true}
         style={{ objectFit: "cover", objectPosition: "center" }}
         placeholder="blur"
-        alt="treatment_area_4.png"
+        alt="澄臻美學牙醫診所 | 看診區"
         className="image__div z-[-100]"
       />
 

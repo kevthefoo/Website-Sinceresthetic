@@ -4,13 +4,13 @@ import "./team.css";
 
 import Image from "next/image";
 
-import doctor_0 from "@/public/images/dentist/johnny.png";
+import dentist_0 from "@/public/images/dentist/johnny.png";
 import popo from "@/public/images/dentist/jerry.png";
-import doctor_2 from "@/public/images/dentist/david.png";
-import doctor_3 from "@/public/images/dentist/tom.png";
-import doctor_4 from "@/public/images/dentist/mary.png";
-import doctor_5 from "@/public/images/dentist/linda.png";
-import doctor_6 from "@/public/images/dentist/jennifer.png";
+import dentist_2 from "@/public/images/dentist/david.png";
+import dentist_3 from "@/public/images/dentist/tom.png";
+import dentist_4 from "@/public/images/dentist/mary.png";
+import dentist_5 from "@/public/images/dentist/linda.png";
+import dentist_6 from "@/public/images/dentist/jennifer.png";
 
 import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
@@ -44,8 +44,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_0}
-                      alt="doctor_0"
+                      src={dentist_0}
+                      alt="澄臻美學牙醫診所 | 林昌言院長"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
@@ -108,7 +108,7 @@ const TeamCarousel: React.FC = () => {
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
                       src={popo}
-                      alt="popo"
+                      alt="澄臻美學牙醫診所 | 江逆鱗醫師"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
@@ -170,8 +170,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_2}
-                      alt="doctor_2"
+                      src={dentist_2}
+                      alt="澄臻美學牙醫診所 | 林強尼醫師"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
@@ -233,8 +233,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_3}
-                      alt="doctor_3"
+                      src={dentist_3}
+                      alt="澄臻美學牙醫診所 | 林安海醫師"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
@@ -295,8 +295,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_4}
-                      alt="doctor_4"
+                      src={dentist_4}
+                      alt="澄臻美學牙醫診所 | 林波波醫師"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
@@ -357,8 +357,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_5}
-                      alt="doctor_5"
+                      src={dentist_5}
+                      alt="澄臻美學牙醫診所 | 林波奇醫師"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />
@@ -420,8 +420,8 @@ const TeamCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] border-2 border-slate-700 bg-[#1EA8B012] p-0">
                   <div className="mb-4 h-[400px] w-full overflow-hidden">
                     <Image
-                      src={doctor_6}
-                      alt="doctor_6"
+                      src={dentist_6}
+                      alt="澄臻美學牙醫診所 | 林森林醫師"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                       placeholder="blur"
                     />

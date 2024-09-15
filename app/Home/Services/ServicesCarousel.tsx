@@ -17,7 +17,6 @@ import {
 import ceramic_crown from "@/public/images/services/ceramic_crown.png";
 import children_dentist from "@/public/images/services/children_dentist.png";
 import dental_implant from "@/public/images/services/dental_implant.png";
-// import family_dentist from "@/public/images/services/family_dentist.png";
 import root_canal_treatment from "@/public/images/services/root_canal_treatment.png";
 import teeth_whitening from "@/public/images/services/teeth_whitening.png";
 
@@ -43,7 +42,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={ceramic_crown}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 牙齒矯正"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -66,7 +65,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={root_canal_treatment}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 牙齒修護"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -89,7 +88,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={dental_implant}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 牙齒矯正"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -112,7 +111,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={dental_implant}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 全植牙"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -135,7 +134,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={root_canal_treatment}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 全瓷冠"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -158,7 +157,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={children_dentist}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 牙齒美白"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -181,7 +180,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={teeth_whitening}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 兒童牙科"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -204,7 +203,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={teeth_whitening}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 家庭牙醫"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"
@@ -227,7 +226,7 @@ const ServicesCarousel: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-start overflow-hidden rounded-[50px] p-0 pb-4">
                   <Image
                     src={teeth_whitening}
-                    alt="service_1"
+                    alt="澄臻美學牙醫診所 | 3D齒雕"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     placeholder="blur"
                     className="mb-4"

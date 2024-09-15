@@ -39,7 +39,7 @@ const Header: React.FC = () => {
         className="flex items-center justify-center gap-2 max-rg_mobile:gap-1"
       >
         <div className="w-p[50px] relative h-[50px] w-[50px] max-rg_mobile:h-[35px] max-rg_mobile:w-[35px]">
-          <Image src={logo} alt="logo" fill={true} className="" />
+          <Image src={logo} alt="澄臻美學牙醫診所 | Logo" fill={true} className="" />
         </div>
 
         <div className="select-none">

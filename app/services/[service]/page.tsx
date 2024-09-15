@@ -28,7 +28,7 @@ const Service: React.FC<ServiceProps> = ({ params }) => {
         <div className="relative aspect-square w-[330px] overflow-hidden rounded-2xl max-sm_desktop:rounded-full max-sm_tablet:w-[250px] max-rg_mobile:w-[200px]">
           <Image
             src={imagePath}
-            alt={service}
+            alt={`澄臻美學牙醫診所 | ${service}`}
             fill={true}
             style={{
               objectFit: "cover",

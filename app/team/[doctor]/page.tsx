@@ -26,7 +26,7 @@ const Dentist: React.FC<DentistProps> = ({ params }) => {
         <div className="relative aspect-[3/4] h-[330px] overflow-hidden rounded-xl border-4 border-slate-400 shadow-lg max-lg_tablet:aspect-square max-lg_tablet:h-auto max-lg_tablet:w-[200px] max-lg_tablet:rounded-full">
           <Image
             src={imagePath}
-            alt={doctor}
+            alt={`澄臻美學牙醫診所 |  ${doctor}`}
             fill={true}
             priority={true}
             style={{

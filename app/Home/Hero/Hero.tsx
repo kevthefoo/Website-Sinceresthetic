@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           style={{ objectFit: "cover", objectPosition: "center" }}
           priority={true}
           placeholder="blur"
-          alt="reception"
+          alt="澄臻美學牙醫診所 | 一樓接待區"
           className="z-1 absolute left-0 top-0"
         />
         <Reveal yTranslate={0} xTranslate={100}>
