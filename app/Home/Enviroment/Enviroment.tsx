@@ -1,5 +1,5 @@
 import Image from "next/image";
-import treatment_area_4 from "@/public/images/clinic/treatment_area_4.png";
+import treatment_area_4 from "@/public/images/clinic/treatment_area_4.webp";
 import "./enviroment.css";
 import Reveal from "@/app/Components/Reveal/Reveal";
 

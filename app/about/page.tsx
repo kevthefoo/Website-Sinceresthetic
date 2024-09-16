@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import banner from "@/public/images/banner/banner_1.png";
 import reception from "@/public/images/clinic/reception.webp";
-import second_floor from "@/public/images/clinic/second_floor.png";
-import sincece from "@/public/images/clinic/treatment_area_2.png";
+import second_floor from "@/public/images/clinic/second_floor.webp";
+import sincece from "@/public/images/clinic/treatment_area_2.webp";
 
 export const metadata: Metadata = {
   title: "澄臻美學牙醫診所 | 關於澄臻",
