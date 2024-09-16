@@ -57,59 +57,62 @@ const Header: React.FC = () => {
 
       {/* Navigation Menu */}
       <NavigationMenu className="max-lg_tablet:hidden">
-        <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink
-              className={`${navigationMenuTriggerStyle()} text-base`}
-            >
-              首頁
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+        <ul>
+          <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={`${navigationMenuTriggerStyle()} text-base`}
+              >
+                首頁
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
-          <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink
-              className={`${navigationMenuTriggerStyle()} text-base`}
-            >
-              關於澄臻
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+          <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
+            <Link href="/about" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={`${navigationMenuTriggerStyle()} text-base`}
+              >
+                關於澄臻
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
-          <Link href="/services" legacyBehavior passHref>
-            <NavigationMenuLink
-              className={`${navigationMenuTriggerStyle()} text-base`}
-            >
-              診療項目
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+          <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
+            <Link href="/services" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={`${navigationMenuTriggerStyle()} text-base`}
+              >
+                診療項目
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
-          <Link href="/team" legacyBehavior passHref>
-            <NavigationMenuLink
-              className={`${navigationMenuTriggerStyle()} text-base`}
+          <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
+            <Link href="/team" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={`${navigationMenuTriggerStyle()} text-base`}
+              >
+                醫療團隊
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
+            <Link
+              href="https://page.line.me/920oaogn?openQrModal=true"
+              legacyBehavior
+              passHref
             >
-              醫療團隊
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
-          <Link
-            href="https://page.line.me/920oaogn?openQrModal=true"
-            legacyBehavior
-            passHref
-          >
-            <NavigationMenuLink
-              target="_blank"
-              className={`${navigationMenuTriggerStyle()} text-base`}
-            >
-              立即預約
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+              <NavigationMenuLink
+                target="_blank"
+                className={`${navigationMenuTriggerStyle()} text-base`}
+              >
+                立即預約
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+        </ul>
       </NavigationMenu>
 
       {/* Social Media Icons */}
@@ -120,12 +123,20 @@ const Header: React.FC = () => {
             : "flex items-center justify-center gap-2 max-lg_tablet:hidden"
         }
       >
-        <Link href="https://instagram.com/sinceresthetic" target="_blank" title="Instagram">
+        <Link
+          href="https://instagram.com/sinceresthetic"
+          target="_blank"
+          title="Instagram"
+        >
           <i className="text-2xl">
             <FaInstagramSquare />
           </i>
         </Link>
-        <Link href="https://www.facebook.com/sinceresthetic" target="_blank" title="Facebook">
+        <Link
+          href="https://www.facebook.com/sinceresthetic"
+          target="_blank"
+          title="Facebook"
+        >
           <i className="text-2xl">
             <FaFacebookSquare />
           </i>
