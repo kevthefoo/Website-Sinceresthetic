@@ -14,11 +14,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import ceramic_crown from "@/public/images/services/ceramic_crown.png";
-import children_dentist from "@/public/images/services/children_dentist.png";
-import dental_implant from "@/public/images/services/dental_implant.png";
-import root_canal_treatment from "@/public/images/services/root_canal_treatment.png";
-import teeth_whitening from "@/public/images/services/teeth_whitening.png";
+import ceramic_crown from "@/public/images/services/ceramic_crown.webp";
+import children_dentist from "@/public/images/services/children_dentist.webp";
+import dental_implant from "@/public/images/services/dental_implant.webp";
+import root_canal_treatment from "@/public/images/services/root_canal_treatment.webp";
+import teeth_whitening from "@/public/images/services/teeth_whitening.webp";
 
 const ServicesCarousel: React.FC = () => {
   return (
