@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import banner from "@/public/images/banner/banner_1.png";
-import reception from "@/public/images/clinic/reception.png";
+import reception from "@/public/images/clinic/reception.jpg";
 import second_floor from "@/public/images/clinic/second_floor.png";
 import sincece from "@/public/images/clinic/treatment_area_2.png";
 

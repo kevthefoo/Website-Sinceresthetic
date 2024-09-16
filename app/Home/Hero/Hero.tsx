@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import Link from "next/link";
 import Reveal from "@/app/Components/Reveal/Reveal";
-import reception from "@/public/images/clinic/reception.png";
+import reception from "@/public/images/clinic/reception.jpg";
 
 const Hero: React.FC = () => {
   return (
