@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import smiling_girl from "@/public/images/appointment/appointment_image_0.png";
+import smiling_girl from "@/public/images/appointment/appointment_image_0.webp";
 import Reveal from "@/app/Components/Reveal/Reveal";
 
 const Introduction: React.FC = () => {
