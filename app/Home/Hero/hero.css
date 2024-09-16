@@ -1,6 +1,6 @@
 .hero__background__container {
-    background-image: url("../../../public/images/clinic/reception.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../../public/images/clinic/reception.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
