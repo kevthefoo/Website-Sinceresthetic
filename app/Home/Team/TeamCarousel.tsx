@@ -4,13 +4,13 @@ import "./team.css";
 
 import Image from "next/image";
 
-import dentist_0 from "@/public/images/dentist/johnny.png";
-import popo from "@/public/images/dentist/jerry.png";
-import dentist_2 from "@/public/images/dentist/david.png";
-import dentist_3 from "@/public/images/dentist/tom.png";
-import dentist_4 from "@/public/images/dentist/mary.png";
-import dentist_5 from "@/public/images/dentist/linda.png";
-import dentist_6 from "@/public/images/dentist/jennifer.png";
+import dentist_0 from "@/public/images/dentist/johnny.webp";
+import popo from "@/public/images/dentist/jerry.webp";
+import dentist_2 from "@/public/images/dentist/david.webp";
+import dentist_3 from "@/public/images/dentist/tom.webp";
+import dentist_4 from "@/public/images/dentist/mary.webp";
+import dentist_5 from "@/public/images/dentist/linda.webp";
+import dentist_6 from "@/public/images/dentist/jennifer.webp";
 
 import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
