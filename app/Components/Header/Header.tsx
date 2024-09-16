@@ -124,11 +124,13 @@ const Header: React.FC = () => {
           <i className="text-2xl">
             <FaInstagramSquare />
           </i>
+          <p className="hidden">Instagram</p>
         </Link>
         <Link href="https://www.facebook.com/sinceresthetic" target="_blank">
           <i className="text-2xl">
             <FaFacebookSquare />
           </i>
+          <p className="hidden">Facebook</p>
         </Link>
         <Link
           href="https://page.line.me/920oaogn?openQrModal=true"
@@ -136,6 +138,7 @@ const Header: React.FC = () => {
         >
           <i className="text-2xl">
             <FaLine />
+            <p className="hidden">Line</p>
           </i>
         </Link>
       </div>

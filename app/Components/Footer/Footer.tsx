@@ -64,22 +64,23 @@ const Footer: React.FC = () => {
       </NavigationMenu>
 
       <div className="absolute right-[200px] top-[50%] flex translate-y-[-50%] flex-col items-start justify-center gap-2 max-lg_desktop:static max-lg_desktop:mb-4 max-lg_desktop:translate-y-[0] max-lg_desktop:flex-row max-lg_desktop:gap-4 max-rg_mobile:flex-col max-rg_mobile:gap-2">
+        
         <div className="flex items-center justify-center">
           <FaLocationDot />
-          <h3>
-            <Link
-              href="https://maps.app.goo.gl/KR8gV53LadBkzzG4A"
-              target="_blank"
-              className="hover:underline"
-            >
-              地址: 台中北屯區文心路四段151號
-            </Link>
-          </h3>
+          <Link
+            href="https://maps.app.goo.gl/KR8gV53LadBkzzG4A"
+            target="_blank"
+            className="hover:underline"
+          >
+            <h3>地址: 台中北屯區文心路四段151號</h3>
+          </Link>
         </div>
+
         <div className="flex items-center justify-center">
           <BsFillTelephoneFill />
           <h3>電話: (04)-22355670</h3>
         </div>
+
       </div>
 
       <div>Copyright ©{currentYear} 澄臻美學牙醫診所</div>
