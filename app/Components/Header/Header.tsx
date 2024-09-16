@@ -57,7 +57,7 @@ const Header: React.FC = () => {
 
       {/* Navigation Menu */}
       <NavigationMenu className="max-lg_tablet:hidden">
-        <ul>
+        <ul className="flex">
           <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
             <Link href="/" legacyBehavior passHref>
               <NavigationMenuLink

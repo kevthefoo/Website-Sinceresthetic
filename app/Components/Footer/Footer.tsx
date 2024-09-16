@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
     <footer className="relative flex flex-col items-center justify-end border-t-2 pb-2 pt-8">
       {/* Navigation Menu */}
       <NavigationMenu className="mb-4">
-        <ul>
+        <ul className="flex">
           <NavigationMenuItem className="list-none hover:border-b-2 hover:border-gray-500 hover:text-gray-500">
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink
