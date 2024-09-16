@@ -120,25 +120,23 @@ const Header: React.FC = () => {
             : "flex items-center justify-center gap-2 max-lg_tablet:hidden"
         }
       >
-        <Link href="https://instagram.com/sinceresthetic" target="_blank">
+        <Link href="https://instagram.com/sinceresthetic" target="_blank" title="Instagram">
           <i className="text-2xl">
             <FaInstagramSquare />
           </i>
-          <p className="hidden">Instagram</p>
         </Link>
-        <Link href="https://www.facebook.com/sinceresthetic" target="_blank">
+        <Link href="https://www.facebook.com/sinceresthetic" target="_blank" title="Facebook">
           <i className="text-2xl">
             <FaFacebookSquare />
           </i>
-          <p className="hidden">Facebook</p>
         </Link>
         <Link
           href="https://page.line.me/920oaogn?openQrModal=true"
           target="_blank"
+          title="Line"
         >
           <i className="text-2xl">
             <FaLine />
-            <p className="hidden">Line</p>
           </i>
         </Link>
       </div>
